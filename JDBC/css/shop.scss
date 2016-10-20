@@ -1,0 +1,1637 @@
+%top-left {
+    @extend %body-img;
+    width: 66px;
+    margin-right: 13px;
+}
+%body-img {
+    background: url("../images/paixie_icon.png") no-repeat;
+}
+%shop-img {
+    background: url("../images/product.png") no-repeat;
+}
+%b-style {
+    float: left;
+    width: 11px;
+    height: 6px;
+    @extend %shop-img;
+    &.b-on {
+        background-position: -252px -154px;
+    }
+    &.b-down {
+        background-position: -252px -154px;
+    }
+}
+$guideData: (list1,-70px,-2px,51px,5px,0px),(list2,-70px,-53px,40px,5px,2px),(list3,-70px,-53px,40px,5px,2px),(list4,-70px,-53px,84px,5px,46px);
+$bottomData: (bottom1,0,-47px,113px),(bottom2,0,-86px,90px),(bottom3,0,-125px,104px),(bottom4,0,-241px,90px),(bottom5,0,-203px,98px),(bottom6,0,-280px,90px),(bottom7,0,-319px,105px);
+$body-width: 1220px;
+$top-height: 34px;
+$logo-height: 142px;
+.wrap-top {
+    height: $top-height;
+    border-bottom: 2px solid #eee;
+    background: #fafafa;
+    .top {
+        width: $body-width;
+        height: $top-height;
+        margin: 0 auto;
+        .top-left {
+            float: left;
+            height: 26px;
+            padding-top: 8px;
+            width: 610px;
+            a {
+                display: block;
+                float: left;
+                height: 18px;
+                line-height: 18px;
+            }
+            .phone {
+                @extend %top-left;
+                background-position: -250px -51px;
+            }
+            .login {
+                @extend %top-left;
+                background-position: -248px -76px;
+            }
+        }
+        .top-right {
+            float: right;
+            height: $top-height;
+            width: 610px;
+            ul {
+                height: $top-height;
+                float: right;
+                li {
+                    float: left;
+                    height: $top-height;
+                    a {
+                        float: left;
+                        padding: 0 13px;
+                        display: block;
+                        height: $top-height;
+                        line-height: $top-height;
+                        strong {
+                            @extend %body-img;
+                            background-position: -148px -504px;
+                            width: 8px;
+                            height: 4px;
+                            float: right;
+                            margin: 15px 4px 0 5px;
+                        }
+                        span {
+                            float: left;
+                            width: 17px;
+                            height: 15px;
+                            @extend %body-img;
+                            background-position: -252px -102px;
+                            margin-top: 10px;
+                            margin-right: 7px;
+                        }
+                        .num {
+                            width: 8px;
+                            height: $top-height;
+                            float: right;
+                            color: #ff5000;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .cols {
+                @extend %body-img;
+                background-position: -315px -42px;
+                height: $top-height;
+                float: left;
+                width: 1px;
+            }
+        }
+    }
+}
+.wrap-logo {
+    height: $logo-height;
+    border-bottom: 3px solid #ff5000;
+    .logo {
+        height: $logo-height;
+        width: $body-width;
+        margin: 0 auto;
+        .logo-left {
+            float: left;
+            height: $logo-height;
+            width: 945px;
+            .logo-left-top {
+                height: 110px;
+                width: 945px;
+                h1 {
+                    float: left;
+                    margin-top: 22px;
+                    a {
+                        width: 200px;
+                        display: block;
+                        height: 66px;
+                        @extend %body-img;
+                        background-position: -118px -118px;
+                    }
+                }
+                .search {
+                    padding-top: 30px;
+                    width: 500px;
+                    height: 80px;
+                    float: left;
+                    margin-left: 245px;
+                    .txt {
+                        padding-left: 30px;
+                        @extend %body-img;
+                        background-position: -280px -20px;
+                        width: 366px;
+                        height: 30px;
+                        border: 2px solid #ff5000;
+                        float: left;
+                    }
+                    .sub {
+                        width: 100px;
+                        height: 34px;
+                        background: #ff5000;
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                    a {
+                        margin-right: 20px;
+                    }
+                    .sea-color {
+                        color: #FF5000;
+                    }
+                }
+            }
+            .logo-left-botm {
+                height: 32px;
+                width: 945px;
+                line-height: 32px;
+                h3 {
+                    padding-left: 34px;
+                    line-height: 32px;
+                    font-size: 14px;
+                    float: left;
+                    width: 186px;
+                    height: 32px;
+                    background: #ff5000 url("../images/paixie_icon.png") no-repeat -277px -94px;
+                    color: #fff;
+                }
+                a {
+                    font-size: 16px;
+                    padding: 0 20px;
+                    color: #333;
+                    height: 32px;
+                    display: block;
+                    float: left;
+                    &:hover {
+                        background: #f9e6e6;
+                    }
+                }
+            }
+        }
+        .logo-right {
+            float: right;
+            width: 148px;
+            height: 119px;
+            margin-top: 23px;
+        }
+    }
+}
+.title {
+    width: $body-width;
+    height: 36px;
+    margin: 0 auto;
+    line-height: 36px;
+}
+.shoplist {
+    width: $body-width;
+    margin: 0 auto;
+    overflow: hidden;
+    .left {
+        width: 970px;
+        float: left;
+        .shop-left-top {
+            width: 970px;
+            overflow: hidden;
+            .list-img {
+                //              overflow: hidden;
+                width: 420px;
+                float: left;
+                margin-right: 20px;
+                .shop-img {
+                    height: 420px;
+                    width: 1000px;
+                    .small {
+                        position: relative;
+                        width: 418px;
+                        height: 418px;
+                        border: 1px solid #E7E7E7;
+                        float: left;
+                        #glass {
+                            display: none;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            background: rgba(255,0,255,0.5);
+                            z-index: 2;
+                        }
+                        img {
+                            display: none;
+                            z-index: 1;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 418px;
+                            height: 418px;
+                            &.show {
+                                display: block;
+                            }
+                            &.hide {
+                                display: none;
+                            }
+                        }
+                        span {
+                            z-index: 2;
+                            @extend %shop-img;
+                            position: absolute;
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+                            background-position: -462px -67px;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+                    .big {
+                        display: none;
+                        margin-left: 20px;
+                        float: left;
+                        width: 418px;
+                        height: 418px;
+                        border: 1px solid #E7E7E7;
+                        position: relative;
+                        overflow: hidden;
+                        z-index: 2;
+                        img {
+                            display: none;
+                            position: absolute;
+                        }
+                    }
+                }
+                .shop-ul {
+                    padding-top: 14px;
+                    width: 420px;
+                    height: 65px;
+                    overflow: hidden;
+                    span {
+                        width: 10px;
+                        height: 14px;
+                        display: block;
+                        margin-top: 25px;
+                        &.span-left {
+                            float: left;
+                            @extend %shop-img;
+                            background-position: -466px -110px;
+                        }
+                        &.span-right {
+                            float: right;
+                            @extend %shop-img;
+                            background-position: -466px -144px;
+                        }
+                    }
+                    .small-imgs {
+                        width: 398px;
+                        height: 64px;
+                        overflow: hidden;
+                        position: relative;
+                        margin: 0 auto;
+                        ul {
+                            width: 600px;
+                            height: 64px;
+                            position: absolute;
+                            left: 0;
+                            li {
+                                margin-left: 18px;
+                                float: left;
+                                width: 60px;
+                                height: 64px;
+                                overflow: hidden;
+                                position: relative;
+                                &.style-on {
+                                    @extend %shop-img;
+                                    background-position: 0 -2px;
+                                }
+                                &.style-down {
+                                    @extend %shop-img;
+                                    background-position: 0 -76px;
+                                }
+                                img {
+                                    position: absolute;
+                                    bottom: 1px;
+                                    left: 1px;
+                                    width: 58px;
+                                    height: 58px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hot {
+                    width: 420px;
+                    height: 64px;
+                    a {
+                        font-size: 14px;
+                        color: #b1b1b1;
+                        display: block;
+                        height: 20px;
+                        line-height: 20px;
+                        margin-top: 22px;
+                        span {
+                            margin-top: 4px;
+                            margin-right: 4px;
+                            float: left;
+                            width: 12px;
+                            height: 12px;
+                            display: block;
+                            @extend %shop-img;
+                        }
+                        &.a-left {
+                            float: left;
+                            span {
+                                background-position: -156px -154px;
+                            }
+                        }
+                        &.a-right {
+                            float: right;
+                            span {
+                                background-position: -178px -154px;
+                            }
+                        }
+                    }
+                }
+            }
+            .infor {
+                width: 530px;
+                float: left;
+                height: 445px;
+                position: relative;
+                h2 {
+                    font-size: 18px;
+                    color: #000;
+                    font-weight: bold;
+                    padding-left: 7px;
+                    line-height: 18px;
+                    padding-top: 4px;
+                    padding-bottom: 17px;
+                }
+                .price {
+                    width: 510px;
+                    height: 102px;
+                    background: #fbf8f6;
+                    padding: 0 10px;
+                    .yuanjia {
+                        padding-top: 20px;
+                        padding-bottom: 18px;
+                        width: 510px;
+                        overflow: hidden;
+                        p {
+                            color: #999;
+                            font-size: 12px;
+                            &.p-left {
+                                float: left;
+                                span {
+                                    float: right;
+                                    text-decoration: line-through;
+                                }
+                                i {
+                                    float: right;
+                                    display: block;
+                                }
+                            }
+                            &.p-right {
+                                float: right;
+                            }
+                        }
+                    }
+                    .price-time {
+                        height: 20px;
+                        width: 510px;
+                        p {
+                            font-weight: 600;
+                            overflow: hidden;
+                            color: #cc0000;
+                            i {
+                                float: left;
+                                height: 20px;
+                                line-height: 20px;
+                                font-size: 12px;
+                            }
+                            span {
+                                line-height: 20px;
+                                float: left;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .youhui {
+                        padding-left: 50px;
+                        font-size: 12px;
+                        color: #999;
+                        padding-top: 10px;
+                    }
+                }
+                .kuaidi {
+                    width: 530px;
+                    height: 30px;
+                    padding-top: 10px;
+                    font-size: 12px;
+                    p {
+                        float: left;
+                        padding-left: 8px;
+                        color: #999;
+                    }
+                    i {
+                        display: block;
+                        float: left;
+                        color: #666666;
+                    }
+                    b {
+                        @extend %b-style;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    span {
+                        display: block;
+                        float: left;
+                        color: #666666;
+                    }
+                }
+                .pingjia {
+                    width: 520px;
+                    margin-left: 10px;
+                    height: 36px;
+                    border-bottom: 1px dashed #d4d4d4;
+                    border-top: 1px dashed #d4d4d4;
+                    .pj {
+                        margin-top: 12px;
+                        float: left;
+                        width: 173px;
+                        height: 15px;
+                        &.pj-col {
+                            width: 172px;
+                            border-right: 1px solid #e5dfda;
+                        }
+                        a {
+                            display: block;
+                            padding-left: 50px;
+                            height: 15px;
+                            line-height: 15px;
+                            margin: 0 auto;
+                            span {
+                                font-weight: 600;
+                                display: inline;
+                                color: #D50000;
+                                &.span-green {
+                                    color: green;
+                                }
+                            }
+                        }
+                    }
+                }
+                #shopAttr {
+                    &.shopAttrstyle{
+                        background: #fff;
+                        width: 506px;
+                        height: 252px;
+                        border: 2px solid #CC0000;
+                        padding: 10px;
+                        display: block;
+                        position: absolute;
+                        z-index: 3;
+                    }
+                    .shopdetial{
+                        display:none;
+                        width:506px;
+                        height:20px;
+                        background:#DD5044;
+                        font-size:12px;
+                        p{
+                          float:left;
+                          height:20px;
+                          width:470px;
+                          line-height:20px;
+                           
+                        }
+                        span{
+                           float:left;
+                           display:block;
+                           height:20px;
+                           width:36px;
+                           line-height:20px;
+                           text-align:center; 
+                        }
+                    }
+                    .queding{
+                        display:none;
+                        width:50px;
+                        height:24px;
+                        font-size:18px;
+                        background:#C40000;
+                        color:#fff;
+                        margin-top:40px;
+                        text-align:center;
+                        line-height:24px;
+                    }
+                    .color {
+                        width: 520px;
+                        padding-left: 10px;
+                        height: 40px;
+                        margin-top: 18px;
+                        span {
+                            font-size: 12px;
+                            color: #999;
+                            height: 40px;
+                            line-height: 40px;
+                            display: block;
+                            float: left;
+                        }
+                        i {
+                            display: block;
+                            margin-left: 5px;
+                            float: left;
+                            border: 2px solid #cc0000;
+                            width: 36px;
+                            height: 36px;
+                            position: relative;
+                            cursor: pointer;
+                            img {
+                                width: 36px;
+                                height: 36px;
+                            }
+                            b {
+                                display: none;
+                                width: 11px;
+                                height: 11px;
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                @extend %shop-img;
+                                background-position: -135px -128px;
+                            }
+                        }
+                    }
+                    .size {
+                        width: 520px;
+                        padding-left: 10px;
+                        height: 30px;
+                        margin-top: 18px;
+                        span {
+                            font-size: 12px;
+                            color: #999;
+                            height: 30px;
+                            line-height: 30px;
+                            display: block;
+                            float: left;
+                        }
+                        i {
+                            color: #404040;
+                            line-height: 28px;
+                            text-align: center;
+                            display: block;
+                            margin-left: 6px;
+                            float: left;
+                            border: 1px solid #E7E7E7;
+                            width: 40px;
+                            height: 28px;
+                            cursor: pointer;
+                            position: relative;
+                            &:hover {
+                                border-color: #CC0000;
+                            }
+                            b {
+                                display: none;
+                                width: 11px;
+                                height: 11px;
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                @extend %shop-img;
+                                background-position: -135px -128px;
+                            }
+                            .size-hide {
+                                display: none;
+                                position: absolute;
+                                z-index: 2;
+                                left: -1px;
+                                top: 32px;
+                                border: 1px solid #d1d1d1;
+                                overflow: hidden;
+                                width: 158px;
+                                height: 41px;
+                                ul {
+                                    overflow: hidden;
+                                    li {
+                                        a {
+                                            padding-left: 6px;
+                                            width: 92px;
+                                            text-align: left;
+                                            line-height: 20px;
+                                            background: #f3f1f1;
+                                            display: block;
+                                            height: 20px;
+                                            float: left;
+                                            border-bottom: 1px solid #D1D1D1;
+                                            border-right: 1px solid #D1D1D1;
+                                            margin-left: 0;
+                                        }
+                                        span {
+                                            height: 20px;
+                                            float: left;
+                                            text-align: center;
+                                            width: 59px;
+                                            line-height: 20px;
+                                            border-bottom: 1px solid #D1D1D1;
+                                            background: #f8f8f8;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        a {
+                            display: block;
+                            float: left;
+                            height: 30px;
+                            line-height: 30px;
+                            color: #826c60;
+                            margin-left: 6px;
+                            b {
+                                display: block;
+                                width: 18px;
+                                height: 18px;
+                                float: left;
+                                @extend %shop-img;
+                                margin-right: 3px;
+                                margin-top: 6px;
+                                background-position: -198px -153px;
+                            }
+                        }
+                    }
+                    .num {
+                        width: 520px;
+                        padding-left: 10px;
+                        height: 30px;
+                        margin-top: 18px;
+                        span {
+                            font-size: 12px;
+                            color: #999;
+                            height: 30px;
+                            line-height: 30px;
+                            display: block;
+                            float: left;
+                        }
+                        i {
+                            width: 30px;
+                            height: 30px;
+                            display: block;
+                            float: left;
+                            &.i-left-a {
+                                @extend %shop-img;
+                                background-position: -95px -2px;
+                            }
+                            &.i-left-b {
+                                @extend %shop-img;
+                                background-position: -95px -36px;
+                            }
+                            &.i-right-a {
+                                @extend %shop-img;
+                                background-position: -95px -104px;
+                            }
+                            &.i-right-b {
+                                @extend %shop-img;
+                                background-position: -95px -70px;
+                            }
+                        }
+                        input {
+                            display: block;
+                            width: 50px;
+                            height: 28px;
+                            border: 1px solid #E7E7E7;
+                            float: left;
+                            line-height: 30px;
+                            text-align: center;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .choice {
+                    padding-left: 52px;
+                    height: 40px;
+                    margin-top: 32px;
+                    input {
+                        width: 180px;
+                        height: 40px;
+                        color: #fff;
+                        font-size: 18px;
+                        float: left;
+                        &.buy-now {
+                            background: #cc0000;
+                            margin-right: 14px;
+                        }
+                        &.join {
+                            background: #da720e;
+                        }
+                    }
+                    span {
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 12px;
+                        color: #999;
+                        display: block;
+                        float: right;
+                        b {
+                            @extend %b-style;
+                            float: right;
+                            margin-top: 18px;
+                            margin-left: 5px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .information {
+            width: 980px;
+            .nav {
+                width: 979px;
+                height: 42px;
+                position: relative;
+                border-bottom: 1px solid #CC0000;
+                ul {
+                    width: 978px;
+                    border: 1px solid #E7E7E7;
+                    border-bottom: 0;
+                    position: absolute;
+                    bottom: 0;
+                    border-top: 1px solid #E7E7E7;
+                    z-index: 1;
+                    li {
+                        float: left;
+                        height: 35px;
+                        position: relative;
+                        width: 139px;
+                        z-index: 2;
+                        a {
+                            border-right: 1px solid #E7E7E7;
+                            height: 34px;
+                            display: block;
+                            width: 138px;
+                            position: absolute;
+                            bottom: 0;
+                            z-index: 3;
+                            text-align: center;
+                            line-height: 35px;
+                            &.a-hover {
+                                border-top: 2px solid #CC0000;
+                                background: #fff;
+                                height: 40px;
+                                border-right: 1px solid #CC0000;
+                                border-left: 1px solid #CC0000;
+                                left: -1px;
+                                bottom: -1px;
+                                line-height: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .info-list {
+            width: 980px;
+            overflow: hidden;
+            .spxq {
+                width: 980px;
+                margin-bottom: 5px;
+                .spxq-top {
+                    width: 978px;
+                    height: 124px;
+                    border: 1px solid #E7E7E7;
+                    border-top: 0;
+                    .spxq-a {
+                        width: 1100px;
+                        height: 124px;
+                        overflow: hidden;
+                        ul {
+                            float: left;
+                            padding: 8px 18px;
+                            width: 226px;
+                            li {
+                                font-size: 12px;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+                table {
+                    border-collapse: collapse;
+                    margin-top: 12px;
+                    width: 978px;
+                    tr {
+                        td {
+                            border: 1px solid #fff;
+                            font-size: 12px;
+                            height: 34px;
+                            text-align: center;
+                            color: #333;
+                            &.table-style {
+                                background: #fafafa;
+                                width: 78px;
+                                height: 34px;
+                                color: #666;
+                            }
+                            &.style-a {
+                                padding-left: 20px;
+                                text-align: left;
+                                width: 90px;
+                                height: 34px;
+                            }
+                            &.table-style-head {
+                                padding-left: 20px;
+                                text-align: left;
+                                background: #f5f5f5;
+                                width: 978px;
+                                height: 34px;
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+            }
+            .infor-img {
+                width: 980px;
+                overflow: hidden;
+                padding-top: 10px;
+                .guide {
+                    width: 200px;
+                    float: left;
+                    background: #fafafa;
+                    height: 3851px;
+                    .guides {
+                        width: 200px;
+                        overflow: hidden;
+                        margin: 30px 0 0 40px;
+                        .guide-img {
+                            float: left;
+                            width: 17px;
+                            height: 210px;
+                            @each $style,
+                            $x,
+                            $y,
+                            $h,
+                            $left,
+                            $bottom in $guideData {
+                                .#{$style} {
+                                    @extend %shop-img;
+                                    background-position-x: $x;
+                                    background-position-y: $y;
+                                    height: $h;
+                                    position: relative;
+                                    a {
+                                        display: block;
+                                        width: 8px;
+                                        height: 8px;
+                                        border-radius: 50%;
+                                        position: absolute;
+                                        left: $left;
+                                        bottom: $bottom;
+                                        background: #d1d1d1;
+                                    }
+                                }
+                            }
+                        }
+                        .guide-cont {
+                            float: left;
+                            width: 100px;
+                            height: 210px;
+                            position: relative;
+                            li {
+                                color: #999999;
+                                font-size: 12px;
+                                position: absolute;
+                                &.list-a {
+                                    color:#CC0000;
+                                    left: 10px;
+                                    top: 40px;
+                                }
+                                &.list-b {
+                                    left: 10px;
+                                    top: 77px;
+                                }
+                                &.list-c {
+                                    left: 10px;
+                                    top: 117px;
+                                }
+                                &.list-d {
+                                    left: 10px;
+                                    top: 157px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .infor-imgs {
+                    width: 780px;
+                    float: left;
+                }
+                .judge {
+                    width: 770px;
+                    float: left;
+                    padding-left: 10px;
+                    overflow: hidden;
+                    display:none;
+                    .composite {
+                        width: 770px;
+                        padding-bottom: 15px;
+                        overflow: hidden;
+                        dl {
+                            text-align: center;
+                            float: left;
+                            dt {
+                                padding-top: 20px;
+                            }
+                            dd {
+                                overflow: hidden;
+                                padding-left: 20px;
+                                height: 20px;
+                                &.dd-a {
+                                    padding-top: 14px;
+                                    padding-bottom: 10px;
+                                }
+                                &.dd-b {
+                                    @extend %shop-img;
+                                    background-position: -211px -221px;
+                                    width: 86px;
+                                    height: 14px;
+                                    padding: 0;
+                                    position: relative;
+                                    span {
+                                        width: 80px;
+                                        height: 14px;
+                                        @extend %shop-img;
+                                        background-position: -211px -201px;
+                                        position: absolute;
+                                        z-index: 1;
+                                        left: 0;
+                                        top: 0;
+                                    }
+                                }
+                                span {
+                                    font-size: 20px;
+                                    color: #CC0000;
+                                    font-weight: bolder;
+                                    float: left;
+                                    display: block;
+                                }
+                                i {
+                                    font-size: 12px;
+                                    color: #CC0000;
+                                    font-weight: normal;
+                                    float: left;
+                                    display: block;
+                                    margin-top: 6px;
+                                }
+                            }
+                            dt {
+                                font-size: 12px;
+                                color: #333333;
+                            }
+                        }
+                        .judge-a {
+                            margin-top: 48px;
+                            overflow: hidden;
+                            width: 384px;
+                            float: left;
+                            margin-left: 56px;
+                            span {
+                                width: 384px;
+                                height: 10px;
+                                background: #f5f5f5;
+                                border-radius: 5px;
+                                display: block;
+                                i {
+                                    display: block;
+                                    width: 354px;
+                                    height: 10px;
+                                    background: #ffab33;
+                                    float: left;
+                                    border-radius: 5px;
+                                }
+                            }
+                            .judge-b {
+                                width: 432px;
+                                a {
+                                    margin-right: 40px;
+                                }
+                            }
+                        }
+                        a {
+                            &.a-style {
+                                margin-left: 40px;
+                                margin-top: 48px;
+                                float: left;
+                                display: block;
+                                width: 96px;
+                                height: 30px;
+                                background: #c40000;
+                                color: #fff;
+                                text-align: center;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                    .consider {
+                        width: 770px;
+                        height: 160px;
+                        background: #fafafa;
+                        color: #666666;
+                        font-size: 12px;
+                        p {
+                            float: left;
+                            padding-left: 43px;
+                            padding-right: 26px;
+                            padding-top: 40px;
+                        }
+                        .con {
+                            float: left;
+                            width: 258px;
+                            margin-right: 65px;
+                            b {
+                                font-weight: normal;
+                                text-align: center;
+                                display: block;
+                                padding-top: 14px;
+                                padding-bottom: 12px;
+                            }
+                            .row-a {
+                                width: 258px;
+                                overflow: hidden;
+                                padding-bottom: 16px;
+                                span {
+                                    height: 12px;
+                                    font-size: 10px;
+                                    display: block;
+                                    float: left;
+                                    margin-right: 10px;
+                                    width: 36px;
+                                    text-align: right;
+                                }
+                                a {
+                                    display: block;
+                                    float: left;
+                                    width: 184px;
+                                    height: 10px;
+                                    background: #f5f5f5;
+                                    position: relative;
+                                    border-radius: 5px;
+                                    i {
+                                        display: block;
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                        height: 10px;
+                                        border-radius: 5px;
+                                        background: #ffab33;
+                                        &.i-style-1 {
+                                            width: 150px;
+                                        }
+                                        &.i-style-2 {
+                                            width: 100px;
+                                        }
+                                        &.i-style-3 {
+                                            width: 50px;
+                                        }
+                                    }
+                                }
+                                strong {
+                                    float: left;
+                                    display: block;
+                                    font-weight: normal;
+                                    font-size: 10px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        .agree {
+                            width: 228px;
+                            height: 22px;
+                            float: right;
+                            a {
+                                display: block;
+                                float: left;
+                                margin-right: 5px;
+                                width: 50px;
+                                height: 20px;
+                                color: #666666;
+                                text-align: center;
+                                line-height: 20px;
+                                border: 1px solid #E7E7E7;
+                                &.a-style {
+                                    width: 52px;
+                                    height: 22px;
+                                    background: #ffab33;
+                                    border: 0;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                    .custom-judge {
+                        border-bottom: 1px solid #e3e3e3;
+                        padding: 18px 0;
+                        overflow: hidden;
+                        dl {
+                            float: left;
+                            text-align: center;
+                            margin-right: 22px;
+                            dt {
+                                @extend %shop-img;
+                                background-position: -189px -2px;
+                                width: 49px;
+                                height: 49px;
+                                border: 1px solid #E3E3E3;
+                                border-radius: 2px;
+                            }
+                            dd {
+                                width: 50px;
+                                font-size: 12px;
+                                color: #999999;
+                            }
+                        }
+                        .content {
+                            float: left;
+                            padding-top: 12px;
+                            p {
+                                color: #666666;
+                                font-size: 12px;
+                            }
+                            span {
+                                color: #999;
+                                font-size: 12px;
+                            }
+                        }
+                        .dir {
+                            float: right;
+                            font-size: 12px;
+                            p {
+                                padding-bottom: 10px;
+                                height: 14px;
+                                i {
+                                    float: left;
+                                    display: block;
+                                }
+                                span {
+                                    float: left;
+                                    display: block;
+                                }
+                            }
+                            b {
+                                display: block;
+                                float: left;
+                                width: 86px;
+                                height: 14px;
+                                @extend %shop-img;
+                                background-position: -211px -221px;
+                                i {
+                                    width: 70px;
+                                    height: 14px;
+                                    display: block;
+                                    float: left;
+                                    @extend %shop-img;
+                                    background-position: -211px -201px;
+                                }
+                            }
+                        }
+                    }
+                    .checkmore {
+                        width: 182px;
+                        height: 38px;
+                        border: 1px solid #E3E3E3;
+                        border-radius: 20px;
+                        margin: 20px auto 0;
+                        line-height: 40px;
+                        text-align: center;
+                        color: #666666;
+                    }
+                }
+            }
+        }
+    }
+    .right {
+        padding-bottom: 150px;
+        width: 198px;
+        border-right: 1px solid #E7E7E7;
+        border-left: 1px solid #E7E7E7;
+        float: right;
+        border-top: 3px solid #E7E7E7;
+        border-bottom: 1px solid #E7E7E7;
+        .hxek {
+            width: 100px;
+            height: 88px;
+            margin: 28px auto 0;
+            a {
+                display: block;
+            }
+            span {
+                display: block;
+                width: 90px;
+                margin: 0 auto;
+            }
+        }
+        .contect {
+            width: 176px;
+            height: 28px;
+            border: 1px solid #E7E7E7;
+            background: #fafafa;
+            margin: 0 auto 20px;
+            a {
+                display: block;
+                color: #333333;
+                height: 28px;
+                line-height: 28px;
+                width: 71px;
+                margin: 0 auto;
+                span {
+                    @extend %shop-img;
+                    margin-top: 8px;
+                    margin-right: 5px;
+                    float: left;
+                    display: block;
+                    width: 18px;
+                    height: 14px;
+                    background-position: -323px -128px;
+                }
+                i {
+                    float: left;
+                    display: block;
+                }
+            }
+        }
+        .yh-active {
+            width: 160px;
+            border-top: 1px dashed #E7E7E7;
+            margin: 0 auto;
+            padding: 20px 6px 20px 10px;
+            p {
+                color: #826c60;
+                font-size: 12px;
+                padding-bottom: 3px;
+            }
+            a {
+                color: #826c60;
+                line-height: 20px;
+            }
+        }
+        .promise {
+            width: 160px;
+            border-top: 1px dashed #E7E7E7;
+            margin: 0 auto;
+            padding: 20px 6px 20px 10px;
+            a {
+                color: #826c60;
+                font-size: 12px;
+                padding-bottom: 3px;
+            }
+            p {
+                line-height: 20px;
+                font-size: 12px;
+                span {
+                    display: block;
+                    width: 14px;
+                    height: 14px;
+                    float: left;
+                    margin-top: 3px;
+                    margin-right: 4px;
+                    &.p-style-1 {
+                        @extend %shop-img;
+                        background-position: -251px -128px;
+                    }
+                    &.p-style-2 {
+                        @extend %shop-img;
+                        background-position: -275px -128px;
+                    }
+                    &.p-style-3 {
+                        @extend %shop-img;
+                        background-position: -299px -128px;
+                    }
+                }
+            }
+        }
+        .look {
+            width: 176px;
+            border-top: 1px dashed #E7E7E7;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 30px;
+            span {
+                position: absolute;
+                top: -8px;
+                left: 36px;
+                z-index: 1;
+                display: block;
+                background: #fff;
+                padding: 0 10px;
+                width: 84px;
+                margin: 0 auto;
+                font-size: 12px;
+                color: #826c60;
+            }
+            dl {
+                margin-top: 20px;
+                text-align: center;
+                dt {
+                    a {
+                        margin: 0 auto;
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                dd {
+                    margin: 0 auto;
+                    width: 160px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 12px;
+                    color: #793354;
+                    background: #ece1de;
+                }
+            }
+        }
+        .shoucang {
+            width: 176px;
+            border-top: 1px dashed #E7E7E7;
+            margin: 0 auto;
+            position: relative;
+            span {
+                position: absolute;
+                top: -8px;
+                left: 36px;
+                z-index: 1;
+                display: block;
+                background: #fff;
+                padding: 0 10px;
+                width: 84px;
+                margin: 0 auto;
+                font-size: 12px;
+                color: #826c60;
+            }
+            p {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+.hot-links {
+    width: 1220px;
+    height: 38px;
+    background: #f5f5f5;
+    margin: 30px auto;
+    color: #826c60;
+    font-size: 12px;
+    span {
+        float: left;
+        display: block;
+        height: 38px;
+        line-height: 38px;
+    }
+    a {
+        line-height: 38px;
+        padding: 0 6px;
+        border-right: 1px solid #826C60;
+        &.a-last {
+            border: 0;
+        }
+    }
+}
+.paixie-service {
+    height: 75px;
+    background: #989ba3;
+    .service {
+        width: 1220px;
+        margin: 0 auto;
+        ul {
+            overflow: hidden;
+            li {
+                width: 244px;
+                float: left;
+                height: 75px;
+                a {
+                    float: left;
+                    font-size: 16px;
+                    color: #fff;
+                    height: 75px;
+                    line-height: 75px;
+                    display: block;
+                    span {
+                        @extend %body-img;
+                        display: block;
+                        width: 45px;
+                        height: 45px;
+                        float: left;
+                        margin-top: 15px;
+                        margin-right: 16px;
+                        &.span-img-1 {
+                            background-position: 0 0;
+                        }
+                        &.span-img-2 {
+                            background-position: -46px 0;
+                        }
+                        &.span-img-3 {
+                            background-position: -96px 0;
+                        }
+                        &.span-img-4 {
+                            background-position: -141px 0;
+                        }
+                        &.span-img-5 {
+                            background-position: -188px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.help {
+    width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 45px;
+    .help-a {
+        width: 140px;
+        float: left;
+        h4 {
+            color: #333;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 26px 0 5px;
+        }
+        ul {
+            li {
+                a {
+                    display: block;
+                    line-height: 24px;
+                    &:hover {
+                        color: #FF5000;
+                    }
+                }
+            }
+        }
+    }
+    .custom {
+        width: 180px;
+        float: left;
+        h4 {
+            color: #333;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 26px 0 5px;
+        }
+        p {
+            color: #666;
+            font-size: 12px;
+            line-height: 24px;
+        }
+    }
+    .erwei {
+        width: 92px;
+        margin-left: 56px;
+        float: left;
+        h4 {
+            color: #333;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 26px 0 5px;
+        }
+        p {
+            color: #666;
+            font-size: 12px;
+            line-height: 34px;
+        }
+        .ew {
+            @extend %body-img;
+            width: 60px;
+            height: 60px;
+            &.ew-1 {
+                background-position: -113px -45px;
+            }
+            &.ew-2 {
+                background-position: -184px -45px;
+            }
+        }
+    }
+    .weibo {
+        width: 184px;
+        float: left;
+        padding-top: 80px;
+        .qq {
+            width: 150px;
+            height: 20px;
+            margin-bottom: 3px;
+            a {
+                display: block;
+                @extend %body-img;
+                width: 150px;
+                height: 20px;
+                background-position: -145px -372px;
+                &:hover {
+                    background-position: -145px -428px;
+                }
+            }
+        }
+        .wb {
+            width: 150px;
+            height: 20px;
+            margin-bottom: 3px;
+            a {
+                display: block;
+                @extend %body-img;
+                width: 150px;
+                height: 20px;
+                background-position: -145px -400px;
+                &:hover {
+                    background-position: -145px -456px;
+                }
+            }
+        }
+    }
+}
+.copy {
+    width: 1220px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background: url("../images/empty.gif") repeat-x center;
+    a {
+        padding: 0 15px;
+        font-size: 12px;
+        color: #999999;
+        display: inline-block;
+        background: #fff;
+    }
+}
+.links {
+    width: 1220px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 20px;
+    padding-top: 10px;
+    .link {
+        float: left;
+        width: 80px;
+        height: 20px;
+    }
+    a {
+        display: block;
+        float: left;
+        line-height: 20px;
+        height: 20px;
+        padding-right: 7px;
+        font-size: 12px;
+        &:hover {
+            color: #FF5000;
+        }
+    }
+    .link-icon {
+        background: url("../images/paixie_icon.png") no-repeat -239px -13px;
+        width: 20px;
+        height: 20px;
+        float: right;
+    }
+    .link-icon-a {
+        background: url("../images/paixie_icon.png") no-repeat -239px -13px;
+    }
+}
+.bottom {
+    width: 1220px;
+    height: 34px;
+    padding: 5px 0 25px;
+    margin: 0 auto;
+    text-align: center;
+    a {
+        @extend %body-img;
+        display: inline-block;
+        height: 34px;
+    }
+    @each $styleName,
+    $bot-x,
+    $bot-y,
+    $bot-width in $bottomData {
+        .#{$styleName} {
+            background-position-x: $bot-x;
+            background-position-y: $bot-y;
+            width: $bot-width;
+        }
+    }
+}

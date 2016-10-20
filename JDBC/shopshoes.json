@@ -1,0 +1,48 @@
+[
+	{	"id":"0",
+		"shopid":"商品货号：11113302126-601",
+		"title":"邦特 韩版潮男低帮系带轻便复古阿甘休闲鞋  白兰 81305",
+		"price":"¥69.00",
+		"color":[{"alt": "深蓝" ,
+				 "src": "http://img12.paixie.net/bangte/201606/22/81305_483_p_thumb_8080.jpg"
+				 },
+				 {
+				 	"alt": "白兰",
+				 	"src": "http://img12.paixie.net/bangte/201606/22/81305_484_p_thumb_8080.jpg"
+				 }
+				 ],
+		"size":[40,41,42,43],
+		"smallimg":["http://img12.paixie.net/bangte/201606/22/81305_484_p.jpg", 
+					"http://img12.paixie.net/bangte/201606/22/81305_484_r.jpg",
+		 			"http://img12.paixie.net/bangte/201606/22/81305_484_b.jpg",
+		 	 		"http://img12.paixie.net/bangte/201606/22/81305_484_t.jpg",
+		 			"http://img12.paixie.net/bangte/201606/22/81305_484_l.jpg"],
+		"bigimg":["http://img12.paixie.net/bangte/201606/22/81305_483_p-a.jpg"]
+	}
+	,
+	{	"id":"1",
+		"shopid":"商品货号：11113302126-602",
+		"title":"鸿星尔克 男板鞋/休闲鞋 藏青11113302126-601",
+		"price":"¥109.00",
+		"color":[{
+				"src":"http://img7.paixie.net/erke/201404/28/11113302126-601_491_p_thumb_8080.jpg",
+				"alt":"藏青"
+		}],
+		"size":[40,41,42,43,44],
+		"smallimg":["http://img7.paixie.net/erke/201404/28/11113302126-601_491_p.jpg", 
+					"http://img7.paixie.net/erke/201404/28/11113302126-601_491_r.jpg",
+					"http://img7.paixie.net/erke/201404/28/11113302126-601_491_f.jpg",
+					"http://img7.paixie.net/erke/201404/28/11113302126-601_491_b.jpg",
+					"http://img7.paixie.net/erke/201404/28/11113302126-601_491_t.jpg", 
+					"http://img7.paixie.net/erke/201404/28/11113302126-601_491_l.jpg",
+					"http://img7.paixie.net/erke/201404/28/11113302126-601_491_d.jpg"],
+		"bigimg":["http://img7.paixie.net/erke/201404/28/11113302126-601_491_p-a.jpg",
+				  "http://img7.paixie.net/erke/201404/28/11113302126-601_491_r-b.jpg",
+				  "http://img7.paixie.net/erke/201404/28/11113302126-601_491_f-b.jpg",
+				  "http://img7.paixie.net/erke/201404/28/11113302126-601_491_b-b.jpg",
+				  "http://img7.paixie.net/erke/201404/28/11113302126-601_491_t-b.jpg", 
+				  "http://img7.paixie.net/erke/201404/28/11113302126-601_491_l-b.jpg",
+				  "http://img7.paixie.net/erke/201404/28/11113302126-601_491_d-b.jpg"
+				  ]
+	}
+]

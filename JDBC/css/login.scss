@@ -1,0 +1,205 @@
+%back-img{
+    display:block;
+    float:left;
+    background: url(../images/login.3.1.png) no-repeat;
+}
+%input-con{
+    font-size:14px;
+    color:#B7B7B7;
+    padding-left:35px;
+    width: 255px;
+    height:38px;
+    border:1px solid #DADADA;
+}
+%span-con{
+    width:32px;height:34px;
+    position: absolute;
+    display: block;
+    left:1px;
+    top:3px;
+}
+$li-nav:(list1,0,-250px),(list2,-25px,-250px),(list3,-49px,-250px),(list4,-77px,-250px),(list5,-100px,-250px),(list6,-124px,-250px),(list7,-147px,-250px),(list8,-171px,-250px),(list9,-196px,-250px),(list10,-220px,-250px);
+$li-nav-hov:(list1,0,-274px),(list2,-25px,-274px),(list3,-49px,-274px),(list4,-77px,-274px),(list5,-100px,-274px),(list6,-124px,-274px),(list7,-147px,-274px),(list8,-171px,-274px),(list9,-196px,-274px),(list10,-220px,-274px);
+._body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    overflow: hidden;
+    .login-top{
+        width:980px;
+        height: 86px;
+        margin: 31px auto;
+        a{  
+            width: 214px;
+            height: 86px;
+            @extend %back-img;
+            background-position:2px -160px;
+        }
+        h2{
+            float:left;
+            height:86px;
+            line-height:86px;
+        }
+    }
+    .login-banner{
+        width: 978px;
+        height:422px;
+        border:1px solid #dadada;
+        background: #FFFFFF;
+        margin: 0 auto;
+        .left{
+            width: 580px;
+            height: 424px;
+            float:left;
+            a{
+                display: block;
+                margin: 62px 50px;
+            }
+        }
+        .right{
+            position: relative;
+            width:358px;
+            padding-top: 40px;
+            height:424px;
+            float:left;
+            .altr{
+                width:292px;
+                height:28px;
+                p{
+                    font-size: 16px;
+                    float: left;
+                    color:#333;
+                }
+                i{
+                    color:#b7b7b7;
+                    font-size: 12px;
+                    display: block;
+                    float: right;
+                }
+                a{
+                    margin-left: 10px;
+                    color: #5d88d4;
+                    display: block;
+                    float: right;
+                }
+            }
+            form{
+                width:292px;
+                .username{
+                    width:292px;
+                    height:40px;
+                    position: relative;
+                    margin-bottom: 28px;
+                    .txt{
+                       @extend %input-con;
+                    }
+                    span{
+                       @extend %back-img;
+                       @extend %span-con;
+                       background-position: 0 0;
+                    }
+                    i{
+                       display:none;
+                       @extend %back-img;
+                       position: absolute;
+                       right:8px;
+                       top:14px;
+                       width:10px;
+                       height:10px;
+                       background-position: -79px -106px; 
+                    }
+                }
+                .password{
+                    margin-bottom: 28px;
+                    width:292px;
+                    height:40px;
+                    position:relative;
+                    .psw{
+                        @extend %input-con;
+                    } 
+                    span{
+                        @extend %back-img;
+                        @extend %span-con;
+                        background-position: 0 -41px;
+                    }
+                    i{
+                       @extend %back-img;
+                       position: absolute;
+                       right:8px;
+                       top:14px;
+                       width:10px;
+                       height:10px;
+                       background-position: -79px -106px; 
+                    }
+                }
+                
+                .remember{
+                    width:292px;
+                    height:14px;
+                    margin-top:4px;
+                    input,p{
+                        font-size:12px;
+                        color:#b7b7b7;
+                        float:left;
+                    }
+                    a{
+                        display:block;
+                        float:right;
+                        color:#5d88d4;
+                    }
+                }
+                .sub{
+                    width:292px;
+                    height:40px;
+                    background:#ff6600;
+                    color:#fff;
+                    font-size:16px;
+                    border-radius: 2px;
+                    margin: 20px 0;
+                }
+            }
+            p{
+                font-size: 12px;
+                color: #B7B7B7;
+            }
+            ul{
+                overflow:hidden;
+                margin-top: 12px;
+                float:left;
+                li{
+                    float:left;
+                        @each $list,$positionX,$positionY in $li-nav{
+                            .a-#{$list}{
+                              background-position-x: $positionX;
+                              background-position-y: $positionY;
+                              @extend %back-img;
+                              width:21px;
+                              height:21px;
+                              margin-right:9px;
+                            }
+                        }
+                        @each $list,$positionX,$positionY in $li-nav-hov{
+                            .a-#{$list}:hover{
+                              background-position-x: $positionX;
+                              background-position-y: $positionY;
+                            }
+                        }
+                 }
+                  
+            }
+            .erwei{
+                 @extend %back-img;
+                 position: absolute;
+                 background-position: 0 -296px;
+                 right:-40px;
+                 bottom:42px;
+                 width:60px;
+                 height:60px;
+            }
+        }
+        
+    }
+    .login-bottom{
+        
+    }
+}

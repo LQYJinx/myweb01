@@ -1,0 +1,9 @@
+require(["config"],function(){
+	require(["jquery","login"],function(jq,login){
+		login.init({
+			sub:"sub",
+			username:"username",
+			password:"password"
+		});
+	})
+})

@@ -1,0 +1,319 @@
+.side{height:100%;width:34px;background:#989ba3;position:fixed;right:0;top:0;z-index:4;}
+.side .side-right{width:34px;height:250px;background:url(../images/paixie_icon.png) no-repeat 0 -758px;position:absolute;top:30%;}
+.side .side-right .shop{height:84px;display:block;width:34px;padding-top:35px;}
+.side .side-right .shop i{text-align:center;color:#fff;display:block;margin:0 auto;width:34px;margin-bottom:5px;}
+.side .side-right .shop span{width:20px;height:20px;display:block;border-radius:50%;background:#FF5000;margin:0 auto;color:#fff;font-weight:bold;line-height:20px;text-align: center;}
+.side .side-right .shop:hover{background: url(../images/paixie_icon.png) no-repeat -38px -1008px ;}
+.side .side-right .wallet{height:35px;display:block;width:34px;margin-top:10px;}
+.side .side-right .wallet:hover{background: url(../images/paixie_icon.png) no-repeat -38px -786px;}
+.side .side-right .history{height:35px;display:block;width:34px;margin-top:10px;}
+.side .side-right .history:hover{background: url(../images/paixie_icon.png) no-repeat -38px -831px;}
+.side .side-right .kefu{height:35px;display:block;width:34px;margin-top:10px;}
+.side .side-right .kefu:hover{background: url(../images/paixie_icon.png) no-repeat -38px -876px;}
+.side .back{position:absolute;bottom:0;width:34px;height:80px;}
+.side .back .ewm{width:34px;height:35px;display:block;background:url(../images/paixie_icon.png) no-repeat 0 -1083px;}
+.side .back .ewm:hover{background: url(../images/paixie_icon.png) no-repeat -38px -920px;}
+.side .back .back-bo{width:34px;height:35px;display:block;background:url(../images/paixie_icon.png) no-repeat 0 -1128px}
+.side .back .back-bo:hover{background: url(../images/paixie_icon.png) no-repeat -38px -965px;}
+
+.leftside{width:35px;height:175px;position:fixed;top:50%;left:10px;margin-top:-80px;display:none}
+.leftside ul li{width:35px;height:35px;background:url(../images/paixie_icon.png) no-repeat}
+
+.leftside ul .floor-1{background-position:-48px -394px;}
+.leftside ul .floor-2{background-position:-48px -430px;}
+.leftside ul .floor-3{background-position:-48px -464px;}
+.leftside ul .floor-4{background-position:-48px -498px;}
+.leftside ul .floor-5{background-position:-48px -530px;}
+
+.leftside ul li span{font-size:12px;text-align:center;display:block;width:35px;height:30px;padding-top:5px;color:#fff;}
+
+
+.wrap-top{height:34px;border-bottom:2px solid #eee;background:#fafafa;}
+.wrap-top .top{width:1220px;height:34px;margin:0 auto;}
+.wrap-top .top .top-left{float:left;height:26px;padding-top:8px;width:610px;}
+.wrap-top .top .top-left  a{display:block;float:left;height:18px;line-height:18px;}
+.wrap-top .top .top-left .phone{background:url(../images/paixie_icon.png) no-repeat -250px -51px;width:66px;margin-right:13px}
+.wrap-top .top .top-left .login{background:url(../images/paixie_icon.png) no-repeat -248px -76px;width:64px;margin-right:13px;}
+.wrap-top .top .top-right{float:right;height:34px;width:610px;}
+.wrap-top .top .top-right ul {height:34px;float:right;}
+.wrap-top .top .top-right ul li{float:left;height:34px;}
+.wrap-top .top .top-right ul li a{float:left;padding:0 13px;display:block;height:34px;line-height:34px;}
+.wrap-top .top .top-right ul li a strong{background:url(../images/paixie_icon.png) no-repeat -148px -504px;width:8px; height:4px;;float:right;margin:15px 4px 0 5px;}
+.wrap-top .top .top-right ul li a span{float:left;width:17px;height:15px;background:url(../images/paixie_icon.png) no-repeat -252px -102px;margin-top:10px;margin-right:7px;}
+.wrap-top .top .top-right ul li a .num{width:8px;height:34px;float:right;color:#ff5000;font-weight:bold;}
+.wrap-top .top .top-right ul .cols{background:url(../images/paixie_icon.png) no-repeat -315px -42px;height:34px;float:left;width:1px}
+
+
+.wrap-logo{height:142px;border-bottom:3px solid #ff5000;}
+.wrap-logo .logo{height:142px;width:1220px;margin:0 auto;}
+.wrap-logo .logo .logo-left{float:left;height:142px;width:945px;}
+.wrap-logo .logo .logo-left .logo-left-top{height:110px;width:945px;}
+.wrap-logo .logo .logo-left .logo-left-top h1{float:left;margin-top:22px;}
+.wrap-logo .logo .logo-left .logo-left-top h1 a{width:200px;display:block;height:66px;background:url(../images/paixie_icon.png) no-repeat -118px -118px;}
+.wrap-logo .logo .logo-left .logo-left-top .search{padding-top:30px;width:500px;height:80px;float:left;margin-left:245px;}
+.wrap-logo .logo .logo-left .logo-left-top .search .txt{padding-left:30px;background:url(../images/paixie_icon.png) no-repeat -280px -20px; width:366px;height:30px;border:2px solid #ff5000;float:left;}
+.wrap-logo .logo .logo-left .logo-left-top .search .sub{width:100px;height:34px;background:#ff5000;color:#fff;font-size:16px;}
+.wrap-logo .logo .logo-left .logo-left-top .search a{margin-right:20px;}
+.wrap-logo .logo .logo-left .logo-left-top .search .sea-color{color:#ff5000;}
+.wrap-logo .logo .logo-left .logo-left-botm{height:32px;width:945px;line-height:32px;}
+.wrap-logo .logo .logo-left .logo-left-botm h3{padding-left:34px;line-height:32px;font-size:14px;float:left;width:186px;height:32px;background:#ff5000 url(../images/paixie_icon.png) no-repeat -277px -94px;color:#fff;}
+.wrap-logo .logo .logo-left .logo-left-botm a{font-size:16px;padding:0 20px;color:#333;height:32px;display:block;float: left;}
+.wrap-logo .logo .logo-left .logo-left-botm a:hover{background:#f9e6e6;}
+.wrap-logo .logo .logo-right{float:right;width:148px;height:119px;margin-top:23px;}
+
+.wrap-banner{height:680px;width:1220px;margin:0 auto;overflow:hidden;}
+.wrap-banner .banner-left{width:220px;height:680px;float:left;}
+.wrap-banner .banner-left .nav{width:220px;height:559px;border-bottom:1px solid #e7e7e7;}
+.wrap-banner .banner-left .nav ul li{cursor:pointer;position:relative;width:218px;height:79px;border:1px solid #e7e7e7;border-top:0;overflow:hidden;}
+.wrap-banner .banner-left .nav ul .first{border-top:1px solid #e7e7e7;}
+.wrap-banner .banner-left .nav ul li .box{width:197px;height:79px;position:absolute;padding-left:21px;}
+.wrap-banner .banner-left .nav ul li span{height:16px;margin:16px 0;}
+.wrap-banner .banner-left .nav ul li span i{background:url(../images/paixie_icon.png) no-repeat;float:left;margin-top:4px;margin-right:10px;}
+.wrap-banner .banner-left .nav ul li span .icon-1{background-position:-3px -410px;width:29px;height:14px;}
+.wrap-banner .banner-left .nav ul li span .icon-2{background-position:-7px -446px;width:23px;height:20px;margin-top:0;}
+.wrap-banner .banner-left .nav ul li span .icon-3{background-position:-3px -494px;width:29px;height:14px;}
+.wrap-banner .banner-left .nav ul li span .icon-4{background-position:-3px -537px;width:29px;height:14px;}
+.wrap-banner .banner-left .nav ul li span .icon-5{background-position:-3px -576px;width:26px;height:22px;margin-top:0;}
+.wrap-banner .banner-left .nav ul li span .icon-6{background-position:-3px -631px;width:29px;height:14px;}
+.wrap-banner .banner-left .nav ul li span .icon-7{background-position:-3px -677px;width:29px;height:16px;margin-top:0;}
+.wrap-banner .banner-left .nav ul li span a {font-size:16px;color:#333;}
+.wrap-banner .banner-left .nav ul li span a:hover{color:#ff5000;}
+.wrap-banner .banner-left .nav ul li p {height:12px;line-height:12px}
+.wrap-banner .banner-left .nav ul li p a{font-size:12px;margin-right:7px;}
+.wrap-banner .banner-left .nav ul li p a:hover{color:#ff5000}
+.wrap-banner .banner-left .more{margin-top:10px;height:110px;width:220px;}
+.wrap-banner .banner-left .more a{display:block;}
+
+
+.wrap-banner .banner-mid{float:left;width:780px;height:680px;position:relative;}
+.wrap-banner .banner-mid .boxs {display:none;border-right:1px solid #E7E7E7;border-bottom:1px solid #E7E7E7;border-top:1px solid #E7E7E7;width:779px;height:378px;position:absolute;left:0;top:0;background:#fff;z-index:4;}
+.wrap-banner .banner-mid .boxs .nav-box{display:none;overflow:hidden;width:779px;height:358px;padding-left:20px;}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-left{width:500px;height:368px;padding-top:10px;float:left;}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-left .list{width:500px;margin-top:25px;}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-left .list h3{margin-bottom:9px;padding-bottom:5px;font-size:12px;font-weight:bold;width:500px;border-bottom:1px dashed #E7E7E7}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-left .list a{display: block;float:left;margin-left:13px;}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-left .list .lista{width:494px;padding-left:6px;overflow:hidden;}
+
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-right{float:left;width:259px;height:368px;}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-right .btn{width:20px;height:20px;float:right;background:url(../images/paixie_icon.png) no-repeat -311px -846px;}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-right .btn:hover{background:url(../images/paixie_icon.png) no-repeat -287px -846px}
+.wrap-banner .banner-mid .boxs .nav-box .nav-box-right a{display:block;float:right;}
+
+
+
+
+
+
+.wrap-banner .banner-mid .banner-lb{width:780px;height:380px;overflow:hidden;position:relative;}
+.wrap-banner .banner-mid .banner-lb ul {width:3120px;position:absolute;left:0px;}
+.wrap-banner .banner-mid .banner-lb ul li{float:left;}
+.wrap-banner .banner-mid .banner-lb .leftbtn{left:-50px;top:150px;width:40px;height:80px;background:url(../images/home_slide_icon.png) no-repeat 0 0;position:absolute;z-index:2;opacity:1}
+.wrap-banner .banner-mid .banner-lb .leftbtn:hover{background:url(../images/home_slide_icon.png) no-repeat -41px 0;cursor:pointer;}
+.wrap-banner .banner-mid .banner-lb .rightbtn{right:-50px;top:150px;width:40px;height:80px;background:url(../images/home_slide_icon.png) no-repeat 0 -81px;position:absolute;z-index:2;opacity:1}
+.wrap-banner .banner-mid .banner-lb .rightbtn:hover{background:url(../images/home_slide_icon.png) no-repeat -41px -81px;cursor:pointer;}
+.wrap-banner .banner-mid .banner-lb .banner-li{width:72px;height:10px;position:absolute;top:360px;left:354px;}
+.wrap-banner .banner-mid .banner-lb .banner-li a{margin:0 2px;float:left;display:block;width:10px;height:10px;background:url(../images/home_slide_icon.png) no-repeat;}
+.wrap-banner .banner-mid .banner-lb .banner-li .li-out{background-position:-33px -165px;}
+.wrap-banner .banner-mid .banner-lb .banner-li .li-on{background-position:-2px -165px;width:25px;height:10px;}
+
+.wrap-banner .banner-mid .banner-brand{width:780px;height:179px;}
+.wrap-banner .banner-mid .banner-brand h4{line-height:33px;height:33px;border-bottom:1px solid #e7e7e7;width:766px;margin:0 auto;padding-left:10px;}
+.wrap-banner .banner-mid .banner-brand .brands-top{overflow:hidden;width:780px;height:145px;}
+.wrap-banner .banner-mid .banner-brand .brands-top .brand{width:259px;height:145px;float:left;overflow:hidden;}
+.wrap-banner .banner-mid .banner-brand .brands-top .brand a{display:block;position:relative;width:259px;height:145px;}
+.wrap-banner .banner-mid .banner-brand .brands-top .brand a img{position:absolute;left:0;}
+.wrap-banner .banner-mid .banner-brand .brands-bottom{width:780px;overflow:hidden;margin-top:10px;}
+.wrap-banner .banner-mid .banner-brand .brands-bottom .bra{overflow:hidden;float:left;height:110px;}
+
+.wrap-banner .banner-mid .banner-brand .brands-bottom .bra1{width:263px;}
+.wrap-banner .banner-mid .banner-brand .brands-bottom .bra2{width:259px;}
+.wrap-banner .banner-mid .banner-brand .brands-bottom .bra3{width:258px;}
+
+.wrap-banner .banner-right{width:220px;height:680px;float:right;}
+.wrap-banner .banner-right .vip{width:220px;height:65px;background:#989ba3}
+.wrap-banner .banner-right dl{float:left;text-align:center;height:65px;}
+.wrap-banner .banner-right dl dt{background:url(../images/paixie_icon.png) no-repeat;height:32px;margin:8px 0;}
+.wrap-banner .banner-right .vip-1{background-position:-106px -202px;width:73px;}
+.wrap-banner .banner-right dl dd{font-size:12px;color:#fff;}
+.wrap-banner .banner-right .vip-2{background-position:-180px -202px;width:73px;}
+.wrap-banner .banner-right .vip-3{background-position:-252px -202px;width:74px;}
+.wrap-banner .banner-right .news{width:220px;height:100px;background:#f3f3f3;}
+.wrap-banner .banner-right .news h6{color:#969696;font-weight:normal;padding:9px 0 4px 10px;}
+.wrap-banner .banner-right .news h6 a{display:block;float:right;}
+.wrap-banner .banner-right .news p{line-height:20px;padding-left:16px;}
+.wrap-banner .banner-right .buy{width:220px;height:215px;}
+.wrap-banner .banner-right .buy a{display:block;opacity:0.6;filter:alpha(opacity=60)}
+.wrap-banner .banner-right .tuijian{width:220px;height:300px;overflow:hidden;}
+.wrap-banner .banner-right .tuijian h4{width:200px;height:33px;padding-left:20px;}
+.wrap-banner .banner-right .tuijian h4 a{position:relative;z-index:2;text-align:center;display:block;width:90px;height:34px;line-height:33px;font-size:14px;color:#333;float:left;cursor:pointer;}
+.wrap-banner .banner-right .tuijian .on{background:url(../images/paixie_icon.png) no-repeat -144px -817px}
+.wrap-banner .banner-right .tuijian ul{border:1px solid #e7e7e7;position:relative;width:218px;height:265px;}
+.wrap-banner .banner-right .tuijian ul li{position:absolute;}
+.wrap-banner .banner-right .tuijian ul .first{top:0px;}
+.wrap-banner .banner-right .tuijian ul .center{top:110px;}
+.wrap-banner .banner-right .tuijian ul .last{top:165px;}
+.wrap-banner .banner-right .tuijian .show{display:block;}
+.wrap-banner .banner-right .tuijian .hide{display:none;}
+
+
+.loveshop{width:1220px;margin:0 auto;}
+.loveshop .loveshop-banner{width:1220px;height:54px;border-bottom:1px solid #e7e7e7;}
+.loveshop .loveshop-banner h3{float:left;width:220px;height:30px;padding-top:24px}
+.loveshop .loveshop-banner h3 a{font-size:16px;display:block;float:left;}
+.loveshop .loveshop-banner h3 a:hover{color:#ff5000;}
+.loveshop .loveshop-banner .loveshop-tuijian{float:left;width:180px;height:30px;padding-top:24px;}
+.loveshop .loveshop-banner .loveshop-tuijian a{text-align:center;color:#333;float:left;display:block;width:90px;height:30px;background:url(../images/paixie_icon.png) no-repeat -142px -333px;}
+.loveshop .loveshop-banner .loveshop-tuijian .time span{margin-left:10px;width:16px;height:30px;float:left;display:block;background:url(../images/paixie_icon.png) no-repeat -167px -297px;}
+.loveshop .loveshop-banner .change{float:right;margin-top:24px;color:#666;display:block;background:url(../images/paixie_icon.png) no-repeat -94px -300px;padding-right:20px;}
+.loveshop .rush{width:1220px;}
+.loveshop .rush ul{overflow:hidden;}
+.loveshop .rush ul li{float:left;width:203px;}
+.loveshop .rush ul li .showtime{width:165px;height:20px;background:#c0c0c0;margin:0 auto;position:relative;overflow:hidden;}
+.loveshop .rush ul li .showtime .showtime-color{width:165px;height:20px;background:#db4c4c;position:absolute;left:0;top:0;}
+.loveshop .rush ul li .showtime i{position:absolute;z-index:2;left:4px;float:left;color:#fff;font-size:12px;display:block;width:50px;height:20px;line-height:20px;}
+.loveshop .rush ul li .showtime strong{position:absolute;z-index:2;left:50px;font-weight:normal;float:left;font-size:12px;height:20px;line-height:20px;color:#fff;}
+.loveshop .rush ul li .showtime a{display:none;background:blue;line-height:20px;text-align:center;position:absolute;z-index:3;left:0;top:0;width:165px;height:20px;}
+.loveshop .rush ul li p{width:165px;margin:0 auto;height:12px;padding-top:12px;}
+.loveshop .rush ul li p i{float:left;font-size:10px;height:12px;}
+.loveshop .rush ul li p .line{color:#a599a8;text-decoration:line-through;padding-right:12px;border-right:1px solid #a599a8;}
+.loveshop .rush ul li p .no-line{color:#d50000;padding-left:12px;}
+
+
+.same{width:1220px;margin:0 auto;overflow:hidden;}
+.same .same-title{width:1220px;height:31px;border-bottom:1px solid #fed49a;padding-top:35px;}
+.same .same-title h3{float:left;height:31px;width:214px;}
+.same .same-title h3 a{float:left;display:block;}
+.same .same-title h3 .sign{margin-right:5px;font-weight:bold;width:23px;height:23px;background:#fed49a;color:#fff;font-size:14px;text-align:center;line-height:23px;}
+.same .same-title h3 .title{font-size:16px;padding:0 7px;color:#666;}
+.same .same-title h3 .col{border-right:1px solid #e7e7e7;}
+.same .same-title h3 .title:hover{color:#ff5000;}
+.same .same-title .same-link{margin-left:35px;height:32px;float:left;overflow:hidden;}
+.same .same-title .same-link a{display:block;width:142px;height:32px;float:left;color:#666;line-height:32px;text-align:center;}
+.same .same-title .same-link .active{background:url(../images/px_title_bg.png) no-repeat 0 22px ;}
+.same .same-title span{float:right;display:block;width:52px;height:18px;border:1px solid #e7e7e7;}
+.same .same-title span a{width:52px;height:18px;text-align:center;line-height:18px;display:block;}
+.same .same-con{width:1220px;overflow:hidden;border-bottom:1px solid #e7e7e7;height:431px;}
+.same .same-con .same-left{width:214px;float:left;}
+.same .same-con .same-left .left-img a{display:block;/*height:210px;*/overflow:hidden;}
+.same .same-con .same-left .left-spe{width:214px;overflow:hidden;position:relative;height:211px;}
+.same .same-con .same-left .left-spe .hot{width:148px;background:#ffecd3;padding:14px 50px 0 16px;height:198px;}
+.same .same-con .same-left .left-spe .hot h4{font-size:12px;font-weight:bold;margin-bottom:20px;}
+.same .same-con .same-left .left-spe .hot span {height:20px;line-height:20px;}
+.same .same-con .same-left .left-spe .hot span a{margin-right:14px;}
+.same .same-con .same-left .left-spe .special{width:214px;height:121px;position:absolute;top:90px;background:#fff4e7;padding-top:0;}
+.same .same-con .same-left .left-spe .special .guide{height:13px;width:214px;background: #ffecd3;margin-bottom:15px;}
+.same .same-con .same-left .left-spe .special .guide i{display:block;width:13px;height:13px;margin:0 auto;cursor:pointer;}
+.same .same-con .same-left .left-spe .special .guide .up{background:url(../images/paixie_icon.png) no-repeat -290px -340px;}
+.same .same-con .same-left .left-spe .special .guide .down{background:url(../images/paixie_icon.png) no-repeat -311px -340px;}
+.same .same-con .same-left .left-spe .special h4{font-weight:bold;padding-left:16px;font-size:12px;margin-bottom:20px}
+.same .same-con .same-left .left-spe .special span {height:20px;line-height:20px;padding-left:16px;}
+.same .same-con .same-left .left-spe .special span a{margin-right:14px;}
+
+.same .same-con .same-right{float:right;width:1006px;overflow:hidden;}
+.same .same-con .same-right ul {width:1100px;overflow:hidden;padding-left:1px;}
+.same .same-con .same-right ul li{float:left;width:200px;height:215px;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;}
+.same .same-con .same-right ul li a{display:block;}
+.same .same-con .same-right ul li .same-right-img{width:150px;height:150px;text-align:center;margin:10px auto;}
+.same .same-con .same-right ul li .same-right-img img{width:150px;height:150px;}
+.same .same-con .same-right ul li .price{height:16px;width:170px;overflow:hidden;line-height:16px;color:#e8393c;font-size:14px;margin-top:5px;padding-left:15px;}
+.same .same-con .same-right ul li .intro{padding-left:15px;height:16px;width:170px;overflow:hidden;line-height:16px;}
+.same .same-bottom{width:1220px;background:url(../images/sport-logos.png) no-repeat;height:70px;float:left;border-bottom:1px solid #e7e7e7;}
+.same .same-bottom .sport-links{width:1220px;height:70px;}
+.same .same-bottom .sport-links a{width:110px;height:70px;display:block;float:left;}
+
+.paixie-news{width:1220px;margin: 0 auto;padding-top:38px;overflow:hidden;}
+.paixie-news .new-paixie{width:400px;margin-right:20px;float:left;height:292px;}
+.paixie-news .new-paixie .pinpai{display:block;border:1px solid #e7e7e7;}
+.paixie-news .new-paixie h3{font-size:16px;color:#000;padding-bottom:12px;}
+.paixie-news .new-paixie .big{width:400px;height:160px;overflow:hidden;position:relative;}
+.paixie-news .new-paixie .big ul{position:absolute;width: 1200px;}
+.paixie-news .new-paixie .big ul li{float:left;}
+.paixie-news .new-paixie .big .instr{padding:3px 5px;width:100%;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;}
+.paixie-news .new-paixie .big .instr p{font-size:12px;color:#fff;line-height:20px;}
+.paixie-news .new-paixie .big ul li a{display:block;width:400px;height:160px;}
+.paixie-news .new-paixie .small{width:400px;height:95px;padding-top:5px;}
+.paixie-news .new-paixie .small a{display:block;float:left;width:130px;height:95px;position:relative;}
+.paixie-news .new-paixie .small a span{width:130px;height:95px;position:absolute;display:block;left:0;top:0;}
+.paixie-news .new-paixie .small .no-opa{background:rgba(0,0,0,0);}
+.paixie-news .new-paixie .small .on-opa{background:rgba(0,0,0,0.3);}
+.paixie-news .new-paixie .small .center{margin: 0 5px;}
+.paixie-news .new-paixie-video {float:left;}
+.paixie-news .new-paixie-video h3{font-size:16px;color:#000;padding-bottom:12px;}
+.paixie-news .new-paixie-video .pinpai{margin-top:8px;}
+.paixie-news .new-paixie-video dl{overflow:hidden;}
+.paixie-news .new-paixie-video dl dt{float:left;margin-right:10px;}
+.paixie-news .new-paixie-video dl dt a{display:block;position:relative;overflow:hidden;}
+.paixie-news .new-paixie-video dl dt span{text-align:center;color:#fff;width:100%;position:absolute;left:0;bottom:0;background:rgba(0,0,0,0.5);padding:5px 0px;font-size:12px;}
+.paixie-news .new-paixie-video dl dd{float:left;}
+.paixie-news .new-paixie-video dl dd a{display:block;line-height:28px;}
+.paixie-news .new-paixie-video dl dd a:hover{color:#FF5000}
+
+
+.dangji{width:1220px;margin: 0 auto;overflow:hidden;}
+.dangji .dangji-a{height:70px;width:100%;position:relative;overflow:hidden;}
+.dangji .dangji-a span{width:100%;display:block;height:1px;background:#E7E7E7;margin:34px auto;overflow:hidden;}
+.dangji .dangji-a .dangji-neibu{padding:0 10px;position:absolute;z-index:3;left:560px;top:26px;background:#fff;}
+.dangji dl{width:203px;float:left;}
+.dangji dl dt a{position:relative;margin:0 auto;display:block;border-radius:50%;width:110px;height:110px;border:1px solid #e9e9e9;overflow:hidden;}
+.dangji dl dt a span{position:absolute;top:10px;left:34px;display:block;font-size:14px;z-index:5}
+.dangji dl dt a img{position:absolute;}
+.dangji dl dd{padding:20px 40px 50px 40px;overflow:hidden;}
+.dangji dl dd a{line-height:24px;display:block;float:left;width:60px;}
+
+.paixie-service{height:75px;background:#989ba3}
+.paixie-service .service{width:1220px;margin:0 auto;}
+.paixie-service .service ul{overflow:hidden;}
+.paixie-service .service ul li{width:244px;float:left;height:75px;}
+.paixie-service .service ul li a{float:left;font-size:16px;color:#fff;height:75px;line-height:75px;display:block;}
+.paixie-service .service ul li a span{background:url(../images/paixie_icon.png) no-repeat;display:block;width:45px;height:45px;float:left;margin-top:15px;margin-right:16px;}
+.paixie-service .service ul li a .span-img-1{background-position:0 0;}
+.paixie-service .service ul li a .span-img-2{background-position:-46px 0;}
+.paixie-service .service ul li a .span-img-3{background-position:-96px 0;}
+.paixie-service .service ul li a .span-img-4{background-position:-141px 0;}
+.paixie-service .service ul li a .span-img-5{background-position:-188px 0;}
+
+.help{width:1220px;margin:0 auto;overflow:hidden;margin-bottom:45px;}
+.help .help-a{width:140px;float:left;}
+.help .help-a h4{color:#333;font-size:12px;font-weight:600;padding:26px 0 5px 0;}
+.help .help-a ul li a{display:block;line-height:24px;}
+.help .help-a ul li a:hover{color:#FF5000;}
+.help .custom{width:180px;float:left;}
+
+.help .custom h4{color:#333;font-size:12px;font-weight:600;padding:26px 0 5px 0;}
+.help .custom p{color:#666;font-size:12px;line-height:24px;}
+.help .erwei{width:92px;margin-left:56px;float:left;}
+.help .erwei h4{color:#333;font-size:12px;font-weight:600;padding:26px 0 5px 0;}
+.help .erwei p{color:#666;font-size:12px;line-height:34px;}
+.help .erwei .ew{background: url(../images/paixie_icon.png) no-repeat;width:60px;height:60px;}
+.help .erwei .ew-1{background-position:-113px -45px;}
+.help .erwei .ew-2{background-position:-184px -45px;}
+.help .weibo {width:184px;float:left;padding-top:80px;}
+.help .weibo .qq,.wb{width:150px;height:20px;margin-bottom:3px;}
+.help .weibo .qq a,.wb a{display:block;background: url(../images/paixie_icon.png) no-repeat;width:150px;height:20px;}
+.help .weibo .qq a{background-position:-145px -372px;}
+.help .weibo .qq a:hover{background-position:-145px -428px;}
+.help .weibo .wb a{background-position:-145px -400px;}
+.help .weibo .wb a:hover{background-position:-145px -456px;}
+
+
+.copy{width:1220px;height:20px;margin:0 auto;text-align:center;background: url(../images/empty.gif) repeat-x center;
+}
+.copy a{padding:0 15px;font-size:12px;color:#999999;display:inline-block;background:#fff;}
+
+.links{width:1220px;overflow:hidden;margin:0 auto;height:20px;padding-top:10px;}
+.links .link{float:left;width:80px;height:20px;}
+.links a{display:block;float:left;line-height:20px;height:20px;padding-right:7px;font-size:12px;}
+.links a:hover{color:#FF5000}
+.links .link-icon{background: url(../images/paixie_icon.png) no-repeat -239px -13px ;width:20px;height:20px;float:right;}
+.links .link-icon-a{background: url(../images/paixie_icon.png) no-repeat -239px -13px;}
+
+.bottom{width:1220px;height:34px;padding:5px 0 25px 0;margin:0 auto;text-align:center;}
+.bottom a{background:url(../images/paixie_icon.png) no-repeat;display:inline-block;height:34px;}
+.bottom .bottom1{background-position:0 -47px;width:113px;}
+.bottom .bottom2{background-position:0 -86px;width:90px;}
+.bottom .bottom3{background-position:0 -125px;width:104px;}
+.bottom .bottom4{background-position:0 -241px;width:90px;}
+.bottom .bottom5{background-position:0 -203px;width:98px;}
+.bottom .bottom6{background-position:0 -280px;width:90px;}
+.bottom .bottom7{background-position:0 -319px;width:105px;}
+

@@ -1,0 +1,264 @@
+.top, .bottom .banner-center {
+  width: 1220px;
+  overflow: hidden;
+  margin: 0 auto; }
+
+.top .left a, .top .right .state, .center .shopcartitle i b {
+  background: url(../images/cart.3.2.gif) no-repeat; }
+
+.top {
+  height: 90px; }
+.top .left {
+  float: left; }
+.top .left a {
+  background-position: 0 -10px;
+  height: 90px;
+  width: 205px;
+  display: block; }
+.top .right {
+  height: 90px;
+  float: right;
+  width: 622px; }
+.top .right .welcome {
+  overflow: hidden; }
+.top .right .welcome p {
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  float: right; }
+.top .right .welcome p i {
+  display: block;
+  float: right; }
+.top .right .welcome p span {
+  display: block;
+  float: right; }
+.top .right .welcome p a {
+  color: #1859c5;
+  display: block;
+  float: right; }
+.top .right .state {
+  width: 622px;
+  height: 21px;
+  float: right;
+  background-position: 0 -105px; }
+
+.center {
+  display:none;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px; }
+.center .shopcartitle {
+  width: 1200px;
+  height: 32px; }
+.center .shopcartitle h1 {
+  height: 32px;
+  line-height: 32px;
+  font-size: 18px;
+  float: left; }
+.center .shopcartitle span {
+  font-size: 12px;
+  float: left;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 10px;
+  color: #666666; }
+.center .shopcartitle p {
+  font-size: 12px;
+  float: left;
+  color: #666666;
+  line-height: 32px;
+  height: 32px; }
+.center .shopcartitle i {
+  font-size: 12px;
+  float: right;
+  color: #666666;
+  line-height: 32px;
+  height: 32px; }
+.center .shopcartitle i b {
+  float: left;
+  display: block;
+  width: 22px;
+  height: 32px;
+  background-position: -237px -34px; }
+.center .shopinfo {
+  width: 1200px;
+  height: 35px;
+  border-top: 3px solid #c6c6c6;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666666;
+  background: #eeeeee; }
+.center .shopinfo .choice {
+  padding-left: 10px;
+  height: 35px;
+  width: 250px;
+  float: left; }
+.center .shopinfo .choice input {
+  margin-top: 10px;
+  margin-right: 7px;
+  float: left; }
+.center .shopinfo .choice span {
+  height: 35px;
+  line-height: 35px;
+  float: left; }
+.center .shopinfo .shopname {
+  width: 300px;
+  height: 35px;
+  float: left; }
+.center .shopinfo .price {
+  width: 270px;
+  height: 35px;
+  float: left; }
+.center .shopinfo .num {
+  width: 158px;
+  height: 35px;
+  float: left; }
+.center .shopinfo .count {
+  width: 153px;
+  height: 35px;
+  float: left; }
+.center .shopinfo .action {
+  width: 59px;
+  height: 35px;
+  float: left; }
+.center #center {
+  width: 1200px;
+  overflow: hidden; }
+.center #center ul {
+  width: 1198px;
+  height: 120px;
+  margin: 15px 0;
+  border: 1px solid #c5c5c5; }
+.center #center li {
+  float: left;
+  height: 120px;
+  font-size: 14px;
+  color: #666666; }
+.center #center li.lia {
+  line-height: 120px;
+  width: 30px; }
+.center #center li.lia input {
+  margin: 0 8px; }
+.center #center li.lib {
+  border: 1px solid #C5C5C5;
+  height: 80px;
+  width: 80px;
+  margin: 20px 0; }
+.center #center li.lib img{
+  height: 80px;
+  width: 80px;
+}
+.center #center li.lic {
+  width: 421px;
+  height: 94px;
+  padding: 13px; }
+.center #center li.lic p {
+  height: 20px; }
+.center #center li.lic span {
+  display: block;
+  height: 20px; }
+.center #center li.lic i {
+  display: block;
+  height: 20px; }
+.center #center li.lid {
+  height: 120px;
+  line-height: 120px;
+  width: 232px; }
+.center #center li.lie {
+  height: 120px;
+  width: 202px; }
+.center #center li.lie i {
+  margin-top: 47px;
+  margin-left: 10px;
+  width: 82px;
+  height: 24px;
+  display: block; }
+.center #center li.lie i span {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 22px;
+  border: 1px solid #F5F5F5;
+  line-height: 22px;
+  text-align: center; }
+.center #center li.lie i span.left {
+  border-right: 0; }
+.center #center li.lie i span.right {
+  border-left: 0; }
+.center #center li.lie i input {
+  float: left;
+  width: 38px;
+  height: 22px;
+  border: 1px solid #cdcdcd;
+  text-align: center; }
+.center #center li.lif {
+  width: 125px;
+  height: 120px;
+  line-height: 120px;
+  color: #ff5000; }
+.center #center li.lig {
+  width: 80px;
+  height: 120px;
+  font-size: 12px; }
+.center #center li.lig span {
+  display: block;
+  color: #666666;
+  text-align: center;
+  margin-top: 43px; }
+.center #center li.lig i {
+  text-align: center;
+  margin-top: 7px;
+  color: #999999; }
+.center .jiesuan {
+  width: 1198px;
+  height: 48px;
+  background: #f5f5f5;
+  border: 1px solid #e0dfdf;
+  line-height: 50px; }
+.center .jiesuan input {
+  float: left;
+  margin-top: 18px;
+  margin-left: 9px; }
+.center .jiesuan span {
+  color: #FF5000; }
+.center .jiesuan p {
+  float: left;
+  font-size: 12px;
+  color: #1859c5;
+  margin: 0 10px; }
+.center .jiesuan p.pcolor {
+  color: #666666; }
+.center .jiesuan p.right-m {
+  margin-left: 400px; }
+.center .jiesuan span {
+  float: left; }
+.center .jiesuan #sum {
+  float: right;
+  width: 152px;
+  height: 48px;
+  background: #E0DFDF;
+  text-align: center;
+  cursor: pointer; }
+.center .jiesuan i {
+  float: left;
+  display: block;
+  font-size: 18px;
+  color: #FF5000; }
+.center .jiesuan i b {
+  display: block;
+  float: right;
+  font-weight: normal; }
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  height: 134px;
+  width: 100%;
+  margin-top:20px;
+  border-top: 1px solid #E3E3E3; }
+
+.bottom .banner-center {
+  height: 134px; }
+
+/*# sourceMappingURL=shoplist.css.map */

@@ -1,0 +1,128 @@
+.shops {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+.shops .shopchild {
+  width: 1300px;
+  overflow: hidden; }
+.shops .shopchild .box {
+  width: 232px;
+  height: 322px;
+  position: relative;
+  float: left;
+  margin: 12px 3px; }
+.shops .shopchild .box dl {
+  float: left;
+  width: 230px;
+  border: 1px solid #f5f5f5;
+  height: 322px;
+  left: 0;
+  top: 0;
+  float: left;
+  position: absolute; }
+.shops .shopchild .box dl dt a {
+  display: block; }
+.shops .shopchild .box dl dt a img {
+  margin: 5px auto 0; }
+.shops .shopchild .box dl dd {
+  line-height: 24px; }
+.shops .shopchild .box dl dd.imgsmall {
+  display: none;
+  height: 37px;
+  width: 230px;
+  margin-top: 18px;
+  position: relative; }
+.shops .shopchild .box dl dd.imgsmall span {
+  position: absolute;
+  width: 6px;
+  height: 37px;
+  display: none;
+  background: url(../images/list.png) no-repeat; }
+.shops .shopchild .box dl dd.imgsmall span.left {
+  left: 12px;
+  background-position: -359px -208px;
+  float: left; }
+.shops .shopchild .box dl dd.imgsmall span.right {
+  left: 210px;
+  background-position: -375px -208px;
+  float: right; }
+.shops .shopchild .box dl dd.imgsmall .small {
+  width: 166px;
+  height: 37px;
+  margin: 0 auto;
+  overflow: hidden;
+  float: left; }
+.shops .shopchild .box dl dd.imgsmall ul {
+  width: 200px;
+  height: 37px;
+  position: absolute;
+  left: 32px; }
+.shops .shopchild .box dl dd.imgsmall ul li {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #F5F5F5;
+  float: left;
+  margin-right: 6px; }
+.shops .shopchild .box dl dd.imgsmall ul li img {
+  width: 35px;
+  height: 35px; }
+.shops .shopchild .box dl dd.price {
+  margin-top: 8px;
+  padding-left: 16px; }
+.shops .shopchild .box dl dd.price i {
+  width: 10px;
+  padding-top: 2px;
+  height: 16px;
+  font-size: 12px;
+  display: block;
+  float: left;
+  color: #cc0000; }
+.shops .shopchild .box dl dd.price span {
+  font-size: 16px;
+  display: block;
+  float: left;
+  color: #cc0000;
+  margin-right: 10px; }
+.shops .shopchild .box dl dd.price del {
+  color: #999999;
+  font-size: 12px; }
+.shops .shopchild .box dl dd.price a {
+  background: #d93c50;
+  display: block;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+  margin-top: 4px; }
+.shops .shopchild .box dl dd.title {
+  color: #404040;
+  margin-left: 12px;
+  width: 202px;
+  overflow: hidden; }
+.shops .shopchild .box dl dd.title a {
+  display: block;
+  width: 420px;
+  height: 24px; }
+.shops .shopchild .box dl dd.title a i {
+  font-size: 12px;
+  float: left;
+  display: block; }
+.shops .shopchild .box dl dd.title a span {
+  font-size: 12px;
+  float: left;
+  display: block;
+  width: 168px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+.shops .shopchild .box dl dd.shop {
+  padding-left: 12px;
+  font-size: 12px;
+  color: #999999;
+  text-decoration: underline; }
+.shops .shopchild .box dl dd.shop a {
+  display: block;
+  width: 186px; }
+
+/*# sourceMappingURL=shopdetial.css.map */

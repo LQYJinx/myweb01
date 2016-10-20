@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		html,body{margin:0;padding:0;}
+		.boxs{width:100px;height:50px;margin:50px auto;}
+		.box1{width:86px;height:14px;background:url(images/product.png) no-repeat -211px -220px;cursor: pointer;position:relative;}
+		span{display:block;width:0px;height:14px;position:absolute;left:0;top:0;background:url(images/product.png) no-repeat;background-position-x:-211px;background-position-y:-200px;}
+	</style>
+	<script type="text/javascript" src="js/jquery/jquery-1.11.3.js">
+
+	</script>
+	<body>
+		<div class="boxs">
+			<div class="box1">
+				<span></span>
+			</div>
+			<div class="box2"></div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	var flag = false;
+	$(".box1").on("mousemove",function(evt){
+		if(evt.pageX-$(".box1").offset().left<=$(".box1").width()&&!flag){
+			$("span").width(evt.pageX-$(".box1").offset().left);
+			$(".box2").text((($("span").width()/$(".box1").width()).toFixed(1)*10).toFixed(1)+"分");
+			$(".box2").show();
+		}
+	})
+	$(".box1").on("click",function(evt){
+		flag=true;
+		$("span").width(evt.pageX-$(".box1").offset().left);
+		$(".box2").show();
+			
+	})
+	$(".box1").on("mouseleave",function(){
+		if(!flag){
+			$("span").width(0);
+			$(".box2").hide();
+		}
+		flag=false;
+	})
+</script>
