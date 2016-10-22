@@ -1,5 +1,41 @@
-div{
-  width: 100px;
-  height: 100px;
-  background: yellow;
+.wrap-top{
+  height:65px;
+  background:#393d49;
+  .top{
+    width:1085px;
+    height:65px;
+    margin: 0 auto;
+  }
+  h1{
+    float:left;
+    width:135px;
+    height:37px;
+    margin-top:13px;
+    a{
+
+      width: 135px;
+      height:37px;
+      background-image: url("../../img/logo.png");
+    }
+  }
+  h2{
+    float:left;
+  }
+  .login{
+    float:right;
+    i{
+
+    }
+    a{
+
+    }
+    b{
+      a{
+        font-family: "iconfont" !important;
+        width:20px;
+        height:20px;
+        &.icon-qq:before {content: "\e618";}
+      }
+    }
+  }
 }

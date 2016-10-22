@@ -1,0 +1,28 @@
+.wrap-top {
+  height: 65px;
+  background: #393d49; }
+  .wrap-top .top {
+    width: 1085px;
+    height: 65px;
+    margin: 0 auto; }
+  .wrap-top h1 {
+    float: left;
+    width: 135px;
+    height: 37px;
+    margin-top: 13px; }
+    .wrap-top h1 a {
+      width: 135px;
+      height: 37px;
+      background-image: url("../../img/logo.png"); }
+  .wrap-top h2 {
+    float: left; }
+  .wrap-top .login {
+    float: right; }
+    .wrap-top .login b a {
+      font-family: "iconfont" !important;
+      width: 20px;
+      height: 20px; }
+      .wrap-top .login b a.icon-qq:before {
+        content: "\e618"; }
+
+/*# sourceMappingURL=common.css.map */
