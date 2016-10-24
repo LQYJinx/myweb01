@@ -5,7 +5,7 @@ require(["config"],function(){
     require(["jquery","mythree"],function($,mt){
         console.log(mt.init());
         $(function(){
-            console.log($("#droplist"));
+            console.log($("#droplist"))
         })
     })
 })

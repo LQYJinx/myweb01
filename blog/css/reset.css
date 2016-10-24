@@ -2,11 +2,12 @@ body, html, div, dl, dt, dd, ul, li, form, i, span, p, input, h1, h2 {
   margin: 0;
   padding: 0; }
 
-h1, h2, h3, h4 {
-  font-weight: normal; }
+h1, h2, h3, h4, strong, b, i {
+  font-weight: normal;
+  font-style: normal; }
 
-li {
-  list-style: none; }
+ul {
+  list-style-type: none; }
 
 img, span, i, b, a {
   display: block; }
