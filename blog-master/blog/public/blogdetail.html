@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>博客详情</title>
+	<link rel="stylesheet" type="text/css" href="./layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/common.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/blogdetail.css">
+</head>
+<body>
+<div class="header">
+		<a href="#" class="logo"></a>
+		<div class="nav">
+			<a href="#"><i class="icon icon-wenhao"></i><span>问答</span></a>
+			<a href="#"><i class="icon icon-ui"></i><span>框架</span></a>
+		</div>
+		<div class="nav-user">
+			<a href="#" class="icon-touxiang"></a>
+			<span><a href="#">登入</a><a href="#">注册</a></span>
+			<p>
+				<a href="#" class="navuser-icon icon-qq"></a>
+				<a href="#" class="navuser-icon icon-wb"></a>
+			</p>
+		</div>
+</div>
+<!--博客主体部分-->
+<div class="main layui-clear">
+    <div class="left">
+        <h1>博客标题</h1>
+        <!--博客标识-->
+        <div class="tip detail-hint">
+            <span class="tip-top">置顶</span>
+            <span class="tip-jing">精华</span>
+            <span>未结束</span>
+            <!--字体图标未解决-->
+            <div class="list-hint">
+                <i class="iconfont" title="回答">&#xe602;</i>29
+                <i class="iconfont" title="人气">&#xe603;</i>4573
+            </div> 
+        </div>
+        <!--16号到文章板块-->
+        <!--用户信息条-->
+        <div class="detail-about">
+            <a class="ph-user" href="#">
+                <img src="images/photo.jpg" alt="头像">
+                <cite>
+                   管理员
+                    <em>发布于1天前</em>
+                </cite>
+            </a>
+            <div class="detail-hits">
+                <span style="color:#FF7200">悬赏：100飞吻</span>
+            </div>
+        </div>
+        <div class="detail-context">
+            <p>对于痴情于写作的人来说，无论何时都钟情于所爱而倾心投入，但当遇到生活的瓶颈时，就怎么也找不到续笔的理由，当遇到这样的时刻，就真的是惊天地泣鬼神的想要毁灭现实的肉体存在。如果真的可以割肉获得笔尖的融入，我愿割去所有，哪怕是剔骨，对于一个爱文字的人，却写不出内心的灵魂，与其活着呼吸，不如断绝这一切的存在。</p>
+            <br />
+            <p>这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对，该怎么挣脱这种无知的缠绕？该怎么找回当初热恋的状态？</p>
+            <br />
+            <p>这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对，该怎么挣脱这种无知的缠绕？该怎么找回当初热恋的状态？</p>
+            <br />
+            <p>这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对，该怎么挣脱这种无知的缠绕？该怎么找回当初热恋的状态？</p>
+        </div>
+        <!--评论-->
+        <h2 class="p-title">全部回答(<em id="count">1232</em>)</h2>
+        <ul class="comment">
+            <li>
+                <div class="detail-about detail-about-reply">
+                    <a class="ph-user" href="#">
+                        <img src="images/photo.jpg" alt="管理员">
+                        <cite>
+                            <i>管理员</i>
+                        </cite>
+                    </a>
+                <div class="detail-hits">
+                    <span>1天前</span>
+                </div>
+                </div>
+                <div class="comment-body">
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                </div>
+                <div class="comment-reply">
+                    <span class="reply">
+                        <i class="iconfont">&#xe601;</i>
+                        <em>132</em>
+                    </span>
+                    <span class="reply">
+                        <i class="iconfont">&#xe600;</i>
+                        回复
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="detail-about detail-about-reply">
+                    <a class="ph-user" href="#">
+                        <img src="images/photo.jpg" alt="管理员">
+                        <cite>
+                            <i>管理员</i>
+                        </cite>
+                    </a>
+                <div class="detail-hits">
+                    <span>1天前</span>
+                </div>
+                </div>
+                <div class="comment-body">
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                </div>
+                <div class="comment-reply">
+                    <span class="reply">
+                        <i class="iconfont">&#xe601;</i>
+                        <em>11</em>
+                    </span>
+                    <span class="reply">
+                        <i class="iconfont">&#xe600;</i>
+                        回复
+                    </span>
+                </div>            
+            </li>
+            <li>
+                <div class="detail-about detail-about-reply">
+                    <a class="ph-user" href="#">
+                        <img src="images/photo.jpg" alt="管理员">
+                        <cite>
+                            <i>管理员</i>
+                        </cite>
+                    </a>
+                <div class="detail-hits">
+                    <span>1天前</span>
+                </div>
+                </div>
+                <div class="comment-body">
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                </div>
+                <div class="comment-reply">
+                    <span class="reply">
+                        <i class="iconfont">&#xe601;</i>
+                        <em>42</em>
+                    </span>
+                    <span class="reply">
+                        <i class="iconfont">&#xe600;</i>
+                        回复
+                    </span>
+                </div>            
+            </li>
+            <li>
+                <div class="detail-about detail-about-reply">
+                    <a class="ph-user" href="#">
+                        <img src="images/photo.jpg" alt="管理员">
+                        <cite>
+                            <i>管理员</i>
+                        </cite>
+                    </a>
+                <div class="detail-hits">
+                    <span>1天前</span>
+                </div>
+                </div>
+                <div class="comment-body">
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                    这些日子冷了阅读，淡了笔尖，再拿起的时候，竟是这种无奈的面对
+                    <br>
+                </div>
+                <div class="comment-reply">
+                    <span class="reply">
+                        <i class="iconfont">&#xe601;</i>
+                        <em>1</em>
+                    </span>
+                    <span class="reply">
+                        <i class="iconfont">&#xe600;</i>
+                        回复
+                    </span>
+                </div>            
+            </li>
+        </ul>
+    </div>
+    
+
+
+    <!--边栏热门导航-->
+    <div class="right">
+        <div class="hot-page">
+            <h3 class="p-title">最近热帖</h3>
+            <ol class="hot-list">
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        5764
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        4563
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">这是一篇热帖</a>
+                    <span>
+                        <i class="iconfont">&#xe603;</i>
+                        3453
+                    </span>
+                </li>
+            </ol>
+            <h3 class="p-title">近期热议</h3>
+            <ol class="hot-list">
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        5764
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        4563
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+                <li>
+                    <a href="#">近期正在热议的帖子</a>
+                    <span>
+                        <i class="iconfont">&#xe602;</i>
+                        3453
+                    </span>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="layui-form layui-form-pane answer">
+            <!--分页导航-->
+            <div class="paging">
+                 
+            </div>
+            <!--回复编辑框-->
+            <div class="layui-form-item layui-form-text">       
+                <textarea id="content" style="display:none"></textarea>
+            </div>
+            <div class="layui-form-item">
+                <button id="answer" class="layui-btn">提交回答</button>
+            </div>
+        </div>
+</div>
+
+<div class="footer">
+		<p>
+			<a href="">全栈俱乐部</a>
+			 2016 © 版权所有
+		</p>
+		<p>
+			<a href="">商务合作</a>
+			<a href="">微信公众号</a>
+			<a href="">微博</a>
+		</p>
+		<p>
+			---by
+			<a href="">晓杰</a>
+			<a href="">楷子</a>
+			<a href="">小刀</a>
+			<a href="">小一</a>
+			<a href="">小丰</a>
+		</p>
+</div>
+
+<script type="text/javascript" src="./js/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="./layui/layui.js"></script>
+<script type="text/javascript" src="./js/blogdetail.js"></script>
+</body>
+</html>
+
+<!-- 博客详情所有数据展示，评论回复-->

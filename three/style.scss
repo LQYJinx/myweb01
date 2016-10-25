@@ -1,0 +1,75 @@
+.tuoyuan{
+  width:200px;
+  height:100px;
+  border-radius: 50%;
+  background: red;
+}
+.sjx{
+  width:0;
+  height:0;
+  //border-top: 20px solid #333333;
+  border-bottom: 300px solid #666;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+
+}
+.dhk{
+  width: 100px;
+  height: 50px;
+  background: red;
+  border-radius: 5px;
+  position: relative;
+}
+.dhk:before{
+  content: "";
+  position: absolute;
+  width:0px;
+  height:0px;
+  right:-20px;
+  top:15px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid yellow;
+}
+.bgt{
+  position: relative;
+  width:96px;
+  height:48px;
+  border-width:2px 2px 50px 2px;
+  border-style: solid;
+  border-color: red;
+  background: #989ba3;
+  border-radius: 50%;
+}
+.bgt:before{
+  content: "";
+  width:12px;
+  height:12px;
+  background: yellow;
+  position: absolute;
+  border-radius: 50%;
+  border:19px solid red;
+  left:0px;
+  top:20px;
+}
+.bgt:after{
+  content: "";
+  width:12px;
+  height:12px;
+  background: yellow;
+  position: absolute;
+  border-radius: 50%;
+  border:19px solid #989ba3;
+  right:0px;
+  top:20px;
+}
+.face{
+  width:100px;
+  height:100px;
+  background: red;
+  margin:0 auto;
+}
+.face:before{
+  width:60px;
+  height:20px;
+}

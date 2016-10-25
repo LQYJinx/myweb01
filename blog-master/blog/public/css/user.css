@@ -1,0 +1,334 @@
+/**
+ * user样式库
+ * create by 小丰2016-10-16
+ * 修改记录：
+ * 阿杰 2016-10-16
+ */
+
+/* 公用 */
+html{overflow-x: hidden; overflow-y: auto; background-color:#fff; }
+html body{margin-top: 80px; }
+body{line-height:24px;   -webkit-font-feature-settings: 'kern' 1; -moz-font-feature-settings: 'kern' 1; text-rendering:geometricPrecision;}
+/*字体*/
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  color: #ccc;
+  font-size:15px;
+  font-style:normal;
+  padding-right: 5px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/*头部*/
+.header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #393D49;
+}
+
+}
+/*账户设置退了*/
+.icon-yhtouxiang{
+    background:url(../images/icon-yonghutx.svg);
+    background-size: 35px 35px;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    vertical-align:middle;  
+}
+.nav-make a:hover{
+    animation:myfirst 2s;
+}
+.nav-make{
+    position: absolute;
+    width: 185px;
+    height: 37px;
+    left: 150px; 
+    top:0px; 
+}
+.nav-make a {
+    width: 90px;
+    height: 37px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #999999;
+
+}
+
+.nav-make a i{
+    display:inline-block;
+}
+    
+.nav-make a span{
+    margin-left: 10px;
+    font-size: 13px;
+    display:inline-block;
+}
+/*css3的字体变化*/
+@keyframes myfirst
+{
+from {color:#999999;}
+to {color:#ffffff;}
+}
+
+/*tab的底边框*/
+.layui-tab-title-tebie{
+    width: 424px;
+}
+/*我的评论*/
+.ph-user img{
+    height: 46px;
+    width: 46px;
+    left: 0;
+    border-radius: 100%;
+    display: block;
+}
+.detail-hits{
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
+}
+.detail-about .ph-user cite {
+    position: absolute;
+    color: #4f99cf;
+    font-size: 14px;
+    left: 70px;
+    top: 20px;
+    width: 260px;
+}
+.detail-about {
+    background-color: #f2f2f2;
+    color: #999;
+    line-height: 20px;
+    padding:15px;
+    position: relative;
+}
+
+.comment .detail-about{
+    background-color: #fff;
+}
+
+.comment-body{
+    font-size: 14px;
+
+    margin: 4px 0 5px;
+}
+
+.reply{
+    cursor: pointer;
+    padding-right: 20px;
+
+    font-size: 16px;
+}
+
+.comment-reply .reply i{
+    color: #999;
+    font-size: 20px;
+}
+
+.comment li{
+    border-bottom: 1px dotted #dfdfdf;
+    padding: 6px 0px;
+}
+
+.answer{
+    width: 710px;
+}
+#main-textarea{
+    display: none;
+}
+
+#tjpl{
+    margin-top: 20px;
+
+}
+/*我的消息*/
+
+.message-li{
+width: 728px;
+height:58px;
+border-bottom: 1px solid #DFDFDF;
+position: relative;
+margin-top: 5px;
+}
+.message-li img{
+padding-top: 5px;
+}
+.message-ul{
+margin-top: 10px;
+}
+.message-li a{
+    font-size: 16px;
+
+}
+.fbtx{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    display: inline-block;
+
+}
+.message-top{
+    display: inline-block;
+    width: 668px;
+    height: 26px;
+    vertical-align:top;
+    margin-left:7px;
+    padding-top: 5px;
+}
+
+
+.message-bottom{
+    position: absolute;
+    display: block;
+    top:30px;
+    left:45px; 
+}
+.message-bottom span{
+    color: #999999;
+    padding-left: 30px;
+}
+.message-bottom a{
+    padding-left: 10px;
+}
+
+
+.message-wb{
+    position: absolute;
+    color: #000;
+    right: 0;
+    top:30px;
+    padding-left: 10px;
+}
+
+
+/* 我的发布 */
+.fly-list-li{
+width: 728px;
+height:58px;
+border-bottom: 1px solid #DFDFDF;
+position: relative;
+margin-top: 5px;
+}
+.fly-list-li img{
+padding-top: 5px;
+}
+.fly-list{
+margin-top: 10px;
+}
+.fly-list-li a{
+    font-size: 16px;
+}
+.fbtx{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    display: inline-block;
+
+}
+.fly-tip{
+    display: inline-block;
+    width: 668px;
+    height: 26px;
+    vertical-align:top;
+    margin-left:7px;
+    padding-top: 5px;
+}
+
+.fly-tip span{
+    font-size: 11px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 3px;
+    color: white;
+
+   
+}
+
+.fly-tip-top{
+    background-color: #393D49;
+    margin-left:15px;
+}
+.fly-tip-jing{
+    background-color: #CC0000;
+}
+.fly-bottom{
+    position: absolute;
+    display: block;
+    top:30px;
+    left:45px; 
+}
+.fly-bottom span{
+    color: #999999;
+}
+.fly-bottom span:nth-child(1){
+    font-size:11px;
+    padding-left: 10px;
+}
+.fly-bottom span:nth-child(2){
+    padding-left: 23px;   
+}
+.fly-bottom span:nth-child(3){
+    padding-left: 23px;   
+}
+.list-hint{
+    position: absolute;
+    color: #000;
+    right: 0;
+    top:30px;
+    padding-left: 10px;
+}
+ /* 个人资料   */
+
+
+.youxiangyanzheng{
+    text-decoration: none;
+    color: #4F99CF;
+    display: inline-block;
+}
+#nicheng{
+    display: inline-block;
+    float: left;
+}
+
+#xingbie{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*标题部分*/
+.page-title {
+    font-size: 14px;
+    margin: 20px 0 30px;
+    padding: 10px 15px;
+    line-height: 30px;
+    border-bottom: 1px solid #DFDFDF;
+}
+/*尾部*/
+.footer {
+    margin: 50px 0 0;
+    padding: 31px 0;
+    line-height: 30px;
+    text-align: center;
+    color: #737573;
+    background-color: #f2f2f2;
+}

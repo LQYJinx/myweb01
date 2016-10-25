@@ -1,0 +1,237 @@
+/**
+ * 博客详情样式库
+ * create by 小刀 2016-10-16
+ * 修改记录：
+ * 
+ */
+
+/**
+ * 字体icon
+ */
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  color: #ccc;
+  font-size:15px;
+  font-style:normal;
+  padding-right: 5px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * 布局
+ */
+
+.left{
+	width: 710px;
+	float: left;
+	margin-bottom: 40px;
+}
+.right{
+	width: 350px;
+	float: left;
+	margin-left: 25px;
+}
+
+/**
+ * 标题样式
+ */
+
+.left h1{
+	font-size: 24px;
+	line-height: 30px;
+    padding: 5px 0;
+}
+
+h1,h2,h3{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/**
+ * 博客标识样式
+ */
+
+.tip{
+	position: relative;
+}
+.detail-hint{
+	margin: 5px 0 15px;
+}
+.detail-hint span{
+	font-size: 12px;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 3px;
+	color: white;
+	background-color: #999;
+}
+.detail-hint .tip-top{
+	background-color: #393D49;
+}
+.detail-hint .tip-jing{
+	background-color: #c00;
+}
+.detail-hint .tip-right{
+	background-color: #8FCDA0;
+}
+
+.list-hint{
+	position: absolute;
+	color: #000;
+	right: 0;
+	top: 0;
+    padding-left: 10px;
+}
+
+/**
+ * 博客发帖人详情
+ */
+
+
+.detail-about {
+    background-color: #f2f2f2;
+    color: #999;
+    line-height: 20px;
+    margin-top: 5px;
+    padding: 15px;
+    position: relative;
+}
+
+.ph-user img{
+	height: 46px;
+	width: 46px;
+	left: 0;
+	border-radius: 100%;
+	display: block;
+}
+
+
+.detail-about .ph-user cite {
+	position: absolute;
+    color: #4f99cf;
+    font-size: 14px;
+    left: 70px;
+    top: 20px;
+    width: 260px;
+}
+
+.detail-about .ph-user cite em{
+	color: #999;
+    cursor: default;
+	font-size: 12px;
+	font-style: normal;
+	padding-left: 5px;
+}
+
+.detail-hits{
+	position: absolute;
+	bottom: 15px;
+	left: 70px;
+}
+
+/**
+ * 博客详情主题文章部分
+ */
+
+.detail-context{
+	margin: 20px 0;
+	font-size: 16px;
+	min-height: 200px;
+	line-height: 26px;
+}
+
+.detail-context p{
+    text-indent: 2em;
+}
+
+/**
+ * 热帖排行
+ */
+
+.p-title{
+    font-size: 14px;
+    background-color: #f2f2f2;
+    line-height: 38px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.hot-page .hot-list{
+	margin: 10px 0;
+}
+/**
+ * 列表有错
+ */
+.hot-list li{
+	color: #009e94;
+	font-style: oblique;
+	line-height: 26px;
+	margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    list-style: inside none decimal-leading-zero;
+}
+
+.hot-list a{
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.hot-list span{
+	color: #CCD0DA;
+}
+
+/**
+ * 评论样式表
+ */
+
+.comment{
+	margin-top: 40px;
+}
+
+.comment .detail-about{
+	background-color: #fff;
+}
+
+.comment-body{
+	font-size: 14px;
+	line-height: 24px;
+	margin: 15px 0 20px;
+}
+
+.reply{
+	cursor: pointer;
+	padding-right: 20px;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+.comment-reply .reply i{
+	color: #999;
+	font-size: 20px;
+}
+
+.comment li{
+	border-bottom: 1px dotted #dfdfdf;
+    padding: 20px 0 10px;
+}
+
+.answer{
+	width: 710px;
+}
+
+/**
+ * 分页
+ */

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/post.css">
+	<title>发布</title>
+</head>
+<body>
+	<div class="header"></div>
+	<div class="main layui-clear">
+		<h2 class="page-title">发布博客</h2>
+		<div class="layui-form layui-form-pane">
+			<div class="layui-form-item">
+				<label for="title" class="layui-form-label">标题</label>
+				<div class="layui-input-block">
+					<input id="title" class="layui-input"></input>
+				</div>
+			</div>
+			<div class="layui-form-item layui-form-text">		
+				<textarea id="content" style="display:none"></textarea>
+				<label class="layui-form-label" for="content">内容</label>
+			</div>
+			<div class="layui-form-item">
+				<div class="layui-inline">
+					<label for="type" class="layui-form-label">类别</label>
+					<div class="layui-input-block">
+						<select id="type">
+							<option value="">请选择类别</option>
+							<option value="1">笔试面经</option>
+							<option value="2">生活随笔</option>
+							<option value="3">技术交流</option>
+							<option value="4">职业发展</option>
+							<option value="5">招聘信息</option>
+							<option value="6">资源分享</option>
+							<option value="7">其他</option>
+						</select>
+					</div>
+				</div>
+				<div class="layui-inline">
+					<label for="tag" class="layui-form-label">标签</label>
+					<div class="layui-input-block">
+						<input id="tag" class="layui-input"></input>
+					</div>
+				</div>
+				<div class="layui-inline">
+					<div class="layui-form-mid layui-word-aux">多个标签请用逗号隔开</div>
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<button id="post" class="layui-btn">立即发布</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer"></div>
+
+</body>
+<script type="text/javascript" src="./js/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="./layui/layui.js"></script>  
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/post.js"></script>
+</html>
+
+<!-- 发布博客，最好用一个编辑器（ueeditor或者其他）-->
